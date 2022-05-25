@@ -1,0 +1,312 @@
+<html>
+
+<head>
+    <title>Raymond's Projects</title>
+    <link rel="shortcut icon" href="title1.png" type="image/x-icon">
+    <link type="text/css" rel="stylesheet" href="home.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body class="body">
+    <div class="all">
+        <!--上面-->
+
+        <div class="top0">
+            <img class="top1" src="raymond.png" height="70px">
+            <br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br>
+        </div>
+
+        <div class="top00">
+            <br>
+        </div>
+
+        <div class="top2">
+            <a class="top3" href="projects">
+                <h2>Projects</h2>
+            </a>
+            <a class="top4" href="information">
+                <h2>Information</h2>
+            </a>
+            <a class="top5" href="aboutme">
+                <h2>About me</h2>
+            </a>
+
+        </div>
+
+        <!--中間-->
+
+        <div class="middle1">
+            <img class="middle2" src="aboutmea.jpg" height="800px">
+        </div>
+
+
+        <div class="middle3">
+            <div class="middle4">
+                <h1 class="middle5">關於我</h1>
+                <h2 class="middle5">
+                    <br>&nbsp;&nbsp;&nbsp;&nbsp;
+                    我是Raymond，由於小時候就熱愛各種科技產品，也非常想知道其中的奧妙，
+                    於是就踏入了工程類旅途，喜歡與人交流也喜歡琢磨各種不同的程式軟體，
+                    想當一個不只在辦公室做專案的工程師。
+                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+                    因為在理科方面略勝一籌，所以高職開始就讀機電系，主要學習軟硬體各方面，
+                    工業配線、電晶體、電路板、車床、銑床、PLC控制、C語言、3D列印、Autocad、Catia等是我主學方向，
+                    目前大三，由於對軟體程式方面非常有興趣，所以正準備自己的畢業作品集，希望可以在畢業前呈現一些具體的專案。
+                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+                    PLC階梯語言是我第一個深學的程式語言，讓我的程式邏輯架構奠定了不少基礎，
+                    再來是學習C語言程式，在這堂課我獲得了最高的實習分數，
+                    目前正開始學習HTML、CSS、JavaScript，希望能在網頁程式方面更進一步，
+                    前端、後端、全端、AI、機器學習、數據分析等是我接下來的學習方向。
+                </h2>
+            </div>
+        </div>
+
+        <div class="middle31">
+
+            <h1 class="middle33">即時資訊</h1>
+            <h2 class="middle34">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;距 離 2023 年 01 月 01 日 還 有 : </h2>
+            <h2 class="middle35" id="demo">&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+
+            <script>
+                // Set the date we're counting down to
+                var countDownDate = new Date("Jan 1, 2023 00:00:00").getTime();
+
+                // Update the count down every 1 second
+                var x = setInterval(function () {
+
+                    // Get today's date and time
+                    var now = new Date().getTime();
+
+                    // Find the distance between now and the count down date
+                    var distance = countDownDate - now;
+
+                    // Time calculations for days, hours, minutes and seconds
+                    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                    // Output the result in an element with id="demo"
+                    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+                        + minutes + "m " + seconds + "s ";
+
+                    // If the count down is over, write some text 
+                    if (distance < 0) {
+                        clearInterval(x);
+                        document.getElementById("demo").innerHTML = "EXPIRED";
+                    }
+                }, 1000);
+            </script>
+
+
+            <br><br><br><br><br><br>
+            <br><br><br><br><br><br>
+
+        </div>
+
+        <div class="middle61">
+            <h1 class="middle62">我的小專案作品集</h1>
+
+        </div>
+
+
+
+        <div class="middle70">
+            <h2 class="middle71">基礎學習</h2>
+        </div>
+        <div class="middle72"></div>
+        <a href="hhh" class="middle73"><img src="htmla.png" height="80px">
+            <h3>HTML</h3>
+        </a>
+        <a href="hhh" class="middle74"><img src="cssa.png" height="80px">
+            <h3>CSS</h3>
+        </a>
+        <a href="hhh" class="middle75"><img src="javascripta.png" height="80px">
+            <h3>JavaScript</h3>
+        </a>
+
+
+
+
+
+
+        <div class="middle80">
+            <h2 class="middle81">抽獎工具</h2>
+        </div>
+        <div class="middle82"></div>
+        <a href="html/html簡介.html" class="middle83">
+            <img src="g2a.png" height="80px">
+            <h3>亂數產生器</h3>
+        </a>
+        <a href="hhh" class="middle84">
+            <img src="g2b.png" height="80px">
+            <h3>線上抽籤筒</h3>
+        </a>
+        <a href="hhh" class="middle85">
+            <img src="g2c.png" height="80px">
+            <h3>線上拉霸機</h3>
+        </a>
+
+
+        <div class="middle611"><br><br><br><br><br></div>
+
+
+
+        <div class="middle90">
+            <h2 class="middle91">計算工具</h2>
+        </div>
+        <div class="middle92"></div>
+        <a href="hhh" class="middle93">
+            <img src="g3a.png" height="80px">
+            <h3>BMI數值</h3>
+        </a>
+        <a href="hhh" class="middle94">
+            <img src="g3b.png" height="80px">
+            <h3>一日熱量</h3>
+        </a>
+        <a href="hhh" class="middle95">
+            <img src="g3c.png" height="80px">
+            <h3>出生天數</h3>
+        </a>
+
+
+
+        <div class="middle100">
+            <h2 class="middle101">轉換工具</h2>
+        </div>
+        <div class="middle102"></div>
+        <a href="hhh" class="middle103">
+            <img src="g4a.png" height="80px">
+            <h3>長度轉換</h3>
+        </a>
+        <a href="hhh" class="middle104">
+            <img src="g4b.png" height="80px">
+            <h3>重量轉換</h3>
+        </a>
+        <a href="hhh" class="middle105">
+            <img src="g4c.png" height="80px">
+            <h3>面積轉換</h3>
+        </a>
+
+        <div class="middle612"><br><br><br><br><br></div>
+
+
+
+
+        <div class="middle110">
+            <h2 class="middle111">時間工具</h2>
+        </div>
+        <div class="middle112"></div>
+        <a href="hhh" class="middle113">
+            <img src="g5a.png" height="80px">
+            <h3>計時倒數器</h3>
+        </a>
+        <a href="hhh" class="middle114">
+            <img src="g5b.png" height="80px">
+            <h3>定時播放器</h3>
+        </a>
+        <a href="hhh" class="middle115">
+            <img src="g5c.png" height="80px">
+            <h3>時區轉換</h3>
+        </a>
+
+
+
+        <div class="middle120">
+            <h2 class="middle121">對照表</h2>
+        </div>
+        <div class="middle122"></div>
+        <a href="hhh" class="middle123">
+            <img src="g6a.png" height="80px">
+            <h3>鞋碼表</h3>
+        </a>
+        <a href="hhh" class="middle124">
+            <img src="g6b.png" height="80px">
+            <h3>色調表</h3>
+        </a>
+        <a href="hhh" class="middle125">
+            <img src="g6c.png" height="80px">
+            <h3>國家代碼表</h3>
+        </a>
+
+        <div class="middle613"><br><br><br><br><br></div>
+
+
+
+
+
+
+        <div class="middle130">
+            <h2 class="middle131">日常工具</h2>
+        </div>
+        <div class="middle132"></div>
+        <a href="hhh" class="middle133">
+            <img src="g7a.png" height="80px">
+            <h3>計算機</h3>
+        </a>
+        <a href="hhh" class="middle134">
+            <img src="g7b.png" height="80px">
+            <h3>特殊符號</h3>
+        </a>
+        <a href="hhh" class="middle135">
+            <img src="g7c.png" height="80px">
+            <h3>酷字轉換</h3>
+        </a>
+
+
+
+        <div class="middle140">
+            <h2 class="middle141">遊戲腳本</h2>
+        </div>
+        <div class="middle142"></div>
+        <a href="hhh" class="middle143">
+            <img src="g8a.png" height="80px">
+            <h3>極限屬性</h3>
+        </a>
+        <a href="hhh" class="middle144">
+            <img src="g8b.png" height="80px">
+            <h3>聯盟戰地</h3>
+        </a>
+        <a href="hhh" class="middle145">
+            <img src="g8c.png" height="80px">
+            <h3>遊戲資訊</h3>
+        </a>
+
+        <div class="middle614"><br><br><br><br><br></div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+</body>
+<footer class="foot1">
+    <div class="foot2">
+        <h1 class="foot4">&nbsp;</h1>
+        <h3 class="foot3">© 2022 by Raymond</h3>
+
+        <h3 class="foot3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;更新時間 : 2022 / 05 / 22 </h3>
+
+        <h3 class="foot3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;郵件 : raymondweb1655@gmail.com</h3>
+
+        <h1 class="foot4">&nbsp;</h1>
+    </div>
+
+
+
+
+
+</footer>
+
+</html>
