@@ -1,0 +1,573 @@
+.all {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.top0 {
+    background-color: white;
+    grid-row: 1/-1;
+    grid-column: 1/2;
+}
+
+.top100 {
+    background-color: black;
+    grid-row: 2/-1;
+    grid-column: 1/-1;
+}
+
+.left0 {
+    grid-row: 3/5;
+    grid-column: 1/2;
+}
+
+.middle0 {
+    grid-row: 3/6;
+    grid-column: 2/8;
+}
+
+.right0 {
+    grid-row: 3/4;
+    grid-column: 8/10;
+}
+
+/*--------------------------上部--------------------------*/
+.top00 {
+    background-color: white;
+    grid-row: 1/-1;
+    grid-column: 2/-1;
+}
+
+.top1 {
+
+    margin: 0px 10px 5px 10px;
+    /*上右下左*/
+}
+
+.top2 {
+    text-decoration: none;
+    color: black;
+}
+
+.top3 {
+    display: inline;
+    margin: 0px 0px 0px 50px;
+}
+
+.top3:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.top4 {
+    display: inline;
+    margin: 0px 0px 0px 50px;
+}
+
+.top4:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.top5 {
+    display: inline;
+    margin: 0px 0px 0px 50px;
+}
+
+.top5:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.top6 {
+    display: inline;
+    margin: 0px 0px 0px 50px;
+}
+
+.top6:hover {
+    text-decoration: underline;
+    color: red;
+
+}
+
+/*---------------------左邊---------------*/
+.left0 {
+    background-color: rgb(230, 230, 230);
+}
+
+.left00 {
+    color: black;
+    text-decoration: none;
+}
+
+.left1 {
+    color: black;
+    text-decoration: none;
+}
+
+.left1:hover {
+    display: block;
+    background-color: cornflowerblue;
+}
+
+.left2 {
+    margin: 0;
+}
+.left101{
+    color: black;
+    text-decoration: none;
+    display: block;
+    background-color: burlywood;
+}
+
+/*---------------------中間---------------*/
+.middle0{
+    background-color: white;
+
+}
+
+.middle00{
+    text-align: center;
+
+}
+
+.middle1{
+    display: inline-block;
+}
+
+.middle2{
+    display: inline;
+}
+.middle3{
+    background-color: black;
+    color: white;
+    display: block;
+    overflow-x: auto;
+    width: 210px;
+    height: 160px;
+    margin-left: 100px;
+    padding: 0.5em;
+
+}
+.middle4{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 650px;
+}
+
+.middle5{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 120px;
+}
+
+.middle6{
+    margin-left: 50px;
+}
+
+.middle7{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 850px;
+}
+
+.middle8{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 850px;
+}
+.middle9{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 360px;
+}
+.middle10{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 230px;
+}
+
+.middle11{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 680px;
+}
+
+.middle12{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 630px;
+}
+
+.middle13{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 720px;
+}
+
+.middle14{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 970px;
+}
+
+.middle15{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 280px;
+}
+
+.middle16{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 650px;
+}
+
+.middle17{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 650px;
+}
+
+.middle18{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 700px;
+}
+
+.middle19{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 900px;
+}
+
+.middle20{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 850px;
+}
+
+.middle21{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 500px;
+}
+
+.middle22{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 400px;
+}
+
+.middle23{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 430px;
+}
+
+.middle24{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 580px;
+}
+
+.middle25{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 580px;
+}
+
+.middle26{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 580px;
+}
+
+.middle27{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 600px;
+}
+
+.middle28{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 400px;
+}
+.middle29{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 320px;
+}
+.middle30{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 350px;
+}
+
+.middle31{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 300px;
+}
+
+.middle32{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 320px;
+}
+
+.middle33{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 320px;
+}
+
+.middle34{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 310px;
+}
+
+.middle35{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 410px;
+}
+
+.middle36{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 320px;
+}
+
+.middle37{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 280px;
+}
+
+.middle38{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 580px;
+}
+
+.middle39{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 580px;
+}
+
+.middle40{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 320px;
+}
+
+.middle41{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 600px;
+}
+
+.middle42{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 630px;
+}
+
+.h7{
+    display: inline;
+    color: darkred;
+}
+
+.middle43{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 700px;
+}
+
+.middle44{
+    background-color: black;
+    color: white;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 580px;
+}
+
+
+
+
+
+/*---------------------右邊---------------*/
+.right0{
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
