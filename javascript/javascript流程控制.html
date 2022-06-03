@@ -33,7 +33,7 @@
                 JS(基礎)
             </h1>
 
-            <a href="javascript簡介.html" class="left101">
+            <a href="javascript簡介.html" class="left1">
                 <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;簡介</h3>
             </a>
             <a href="javascript變數.html" class="left1">
@@ -42,7 +42,7 @@
             <a href="javascript運算子.html" class="left1">
                 <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;運算子</h3>
             </a>
-            <a href="javascript流程控制.html" class="left1">
+            <a href="javascript流程控制.html" class="left101">
                 <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;流程控制</h3>
             </a>
             <a href="javascript函數.html" class="left1">
@@ -123,157 +123,175 @@
         </nav>
         <!---------------中間--------------->
         <div class="middle0">
-            <h1 class="middle00">簡介</h1>
+            <h1 class="middle00">流程控制</h1>
             &nbsp;&nbsp;&nbsp;
             <h2 class="middle1">㊙</h2>
-            <h4 class="middle2">用在網頁設計的語言，是客戶端的語言，使用的IDE與網頁設計的相同即可。程式碼可以:</h4><br>
+            <h4 class="middle2">流程控制可讓我們控制程式的進行</h4><br>
             <h4 class="middle2">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.直接寫在html檔案內，只需要寫在&lt;script&gt;&lt;/script&gt;標籤內。
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.if...else
             </h4><br>
             <h4 class="middle2">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.可以在瀏覽器內，因為是scripting語言，所以給予指令便可執行。按<strong>F12</strong>可看見分割視窗，選擇console。
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.switch
             </h4><br>
             <h4 class="middle2">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.寫一個.js的獨立的檔案，例如xxx.js，然後在head標籤內加上&lt;scrip&nbsp;src="xxx.js"&gt;&lt;/script&gt;。
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.while loop
             </h4><br>
             <h4 class="middle2">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.單行註解 => // ; 區塊註解 => /**/
-            </h4><br>
-            <h4 class="middle2">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.敘述句是一個完整的程式指令，需於句後加上分號;來表示結束。
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.for loop
             </h4>
-
-            <br>
-
-            <h2 class="middle1"></h2>
-            <h4 class="middle2"></h4>
-            <br>&nbsp;&nbsp;&nbsp;
-            <h2 class="middle1">㊟</h2>
-            <h4 class="middle2">原則上寫成檔案為佳，方便管理並可重複使用，剛開始練習時可以使用另外兩種方式。</h4>
-
-            <div class="middle6">
-                <hr>
-            </div>
-
-            <h1 class="middle00">輸出</h1>
-            &nbsp;&nbsp;&nbsp;
-            <h2 class="middle1">㊙</h2>
-            <h4 class="middle2">為了看到程式結果以及方便debug，我們需要輸出些文字來看內容或結果，可用以下方式:</h4><br>
-
-            <h4 class="middle2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 跳出視窗顯示，例如 : alert ( "
-                Hello world! " )</h4><br>
-
-            <div class="middle7">
-                <div>&lt;button onclick="myFunction1( )"&gt;點擊我會跳出顯示視窗&lt;/button&gt;</div>
-                <br />
-                <div>&lt;script&gt;</div>
-                <div>&nbsp; &nbsp; function myFunction1( ) {</div>
-                <div>&nbsp; &nbsp; &nbsp; &nbsp; alert("Hello world!");</div>
-                <div>&nbsp; &nbsp; }</div>
-                <div>&lt;/script&gt;</div>
-            </div>
-            <br>
-            <div class="middle6">
-                <button onclick="myFunction1( )"><br>點擊我會跳出顯示視窗<br>&nbsp;</button>
-
-                <script>
-                    function myFunction1() {
-                        alert("Hello world!");
-                    }
-                </script>
-            </div>
-
-
-            <br><br>
-            <h4 class="middle2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                在console顯示，按F12在console選單內訊息，例如 :
-                console.log ( " Hello world! " )</h4><br>
-
-            <div class="middle8">
-                <div>&lt;button onclick="myFunction2( )"&gt;點擊我會在console顯示 Hello world!&lt;/button&gt;</div>
-                <br />
-                <div>&lt;script&gt;</div>
-                <div>&nbsp; &nbsp; function myFunction2( ) {</div>
-                <div>&nbsp; &nbsp; &nbsp; &nbsp; console.log("Hello world!");</div>
-                <div>&nbsp; &nbsp; }</div>
-                <div>&lt;/script&gt;</div>
-            </div>
-            <br>
-            <div class="middle6">
-                <button onclick="myFunction2( )"><br>點擊我會在console顯示 Hello world!<br>&nbsp;</button>
-
-                <script>
-                    function myFunction2() {
-                        console.log("Hello world!");
-                    }
-                </script>
-
-            </div>
-
-
-
-            <br><br>
-            <h4 class="middle2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 在網頁顯示，例如 :
-                document.write ( " Hello world! " )</h4><br>
-
-
-                <pre class="middle9">
-<span class="hljs-keyword">let</span> num = <span class="hljs-number">10</span>;
-<span class="hljs-keyword">let</span> color = <span class="hljs-string">"blue"</span>;
-<span class="hljs-built_in">document</span>.write(<span class="hljs-string">`&lt;p style='color:<span class="hljs-subst">${color}</span>;outline: 2px solid green;'&gt;He has studied <span class="hljs-subst">${num}</span> books.&lt;/p&gt;`</span>);</pre>
-
-
-            <div class="middle6">
-                <script>
-                    let num = 10;
-                    let color = "blue";
-                    document.write(`<p style='color:${color};outline: 2px solid green;'>He has studied ${num} books.</p>`);
-                </script>
-
-            </div>
 
             <br><br>
             <div class="middle6">
                 <hr>
             </div>
 
-            <h1 class="middle00">strict mode</h1>
+            <h1 class="middle00">if...else</h1>
             &nbsp;&nbsp;&nbsp;
             <h2 class="middle1">㊙</h2>
-            <h4 class="middle2">使用'use strict';可以強制我們寫比較安全的程式碼，部分不好的程式撰寫習慣會變成真正的錯誤。 在Strict Mode不允許以下寫法:</h4><br>
+            <h4 class="middle2"> if 可單獨存在，else不可，需與 if 同時存在。語法如下:</h4><br>
             <h4 class="middle2">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.沒有宣告的變數 >> x = 3;
-            </h4><br>
-            <h4 class="middle2">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.沒有宣告的物件 >> x = {a:10, b:20};
-            </h4><br>
-            <h4 class="middle2">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.刪除變數或物件 >> var x = 2; delete x;
-            </h4><br>
-            <h4 class="middle2">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.刪除函數 >> function f(a,b){}; delete f;
-            </h4><br>
-            <h4 class="middle2">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.函數的輸入參數同名 >> function f(a,a){};
-            </h4><br>
-            <h4 class="middle2">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.八進位數字 >> var x = 010; var x = "\010";
-            </h4><br>
-            <h4 class="middle2">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.改變read only或get only屬性的值。
-            </h4><br>
-            <h4 class="middle2">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8.刪除不可刪除的屬性 >> delete Object.prototype;
-            </h4><br>
-            <h4 class="middle2">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9.使用with敘述句
-            </h4><br>
-            <h4 class="middle2">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.使用eval()來建立在他被呼叫的範圍內的變數 >> eval("var x=2"); alert(x);
-            </h4><br>
-            <h4 class="middle2">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11. 使用以下關鍵字作為參數名、arguments、eval、implements、interface、let、package、private、protected、public、static、yield
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A:
             </h4>
+            <pre class="middle24">if(condition){
+    // do something
+} 
+
+if(condition){
+    // do something
+}else{
+    // otherwise
+}</pre>
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B:
+            </h4>
+
+            <pre class="middle25">var v = 10;
+if (v &lt; 5) {
+    console.log("v&lt;5");
+}else{
+    console.log("v&gt;5");
+}</pre>
+
+
+            <br><br>
+            <div class="middle6">
+                <hr>
+            </div>
+
+            <h1 class="middle00">switch</h1>
+            &nbsp;&nbsp;&nbsp;
+            <h2 class="middle1">㊙</h2>
+            <h4 class="middle2">switch語法如下:</h4><br>
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A:
+            </h4>
+            <pre class="middle26">switch(expression){
+    case n:
+        code block
+        break;
+    case n:
+        code block
+        break;
+    default:
+        cold block
+} </pre>
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B:
+            </h4>
+            <pre class="middle27">var m = 5;
+switch(m) {
+    case 1:
+        console.log("January");
+        break;
+    case 5:
+        console.log("May");
+        break;
+    case 10:
+        console.log("October");
+        break;
+    default:
+        console.log("No related months");
+}</pre>
+
+
+
+
+
+
+
+            <br><br>
+            <div class="middle6">
+                <hr>
+            </div>
+
+            <h1 class="middle00">while loop
+            </h1>
+            &nbsp;&nbsp;&nbsp;
+            <h2 class="middle1">㊙</h2>
+            <h4 class="middle2">while loop的語法如下:</h4><br>
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A:
+            </h4>
+
+            <pre class="middle28">while(condition){
+    //code block to be executed
+}</pre>
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B:
+            </h4>
+            <pre class="middle29">var i = 0;
+while (i &lt; 5) {
+    console.log(i);
+    i++;
+}</pre>
+
+
+            &nbsp;&nbsp;&nbsp;
+            <h2 class="middle1">㊮</h2>
+            <h4 class="middle2">do...while可確保至少執行一次，語法如下:</h4><br>
+            <pre class="middle30">do{
+    //code block to be executed
+}while(condition);</pre>
+
+
+            <br><br>
+            <div class="middle6">
+                <hr>
+            </div>
+
+            <h1 class="middle00">for loop
+            </h1>
+            &nbsp;&nbsp;&nbsp;
+            <h2 class="middle1">㊙</h2>
+            <h4 class="middle2">for loop的語法如下:</h4><br>
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A:
+            </h4>
+            <pre class="middle31">for(start;condition;pace){
+    //code block to be executed
+}</pre>
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B:
+            </h4>
+            <pre class="middle32">for (var i=0; i&lt;5; i++) {
+    console.log(i);
+}</pre>
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C:
+            </h4>
+            <pre class="middle33">for (var i=0; i&lt;10; i++) {
+    if (i==3) continue;
+    if (i==5) break;
+    console.log(i);
+}</pre>
+
+
+
+
+
 
             <br><br>
             <div class="middle6">

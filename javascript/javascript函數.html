@@ -1,0 +1,758 @@
+<html>
+
+<head>
+    <title>JavaScript</title>
+    <link rel="shortcut icon" href="JS.png" type="image/x-icon">
+    <link type="text/css" rel="stylesheet" href="javascript.css">
+</head>
+
+<body>
+    <div class="all">
+        <!---------------上面--------------->
+        <div class="top0">
+            <img class="top1" src="up1.png" height="30px">
+        </div>
+        <div class="top00">
+            <a href="https://raymond1655.github.io" class="top2">
+                <h2 class="top3">首頁</h2>
+            </a>
+            <a href="../html/html簡介.html" class="top2">
+                <h2 class="top4">HTML</h2>
+            </a>
+            <a href="css簡介.com" class="top2">
+                <h2 class="top5">CSS</h2>
+            </a>
+            <a href="javascript簡介.html" class="top2">
+                <h2 class="top6">JavaScript</h2>
+            </a>
+        </div>
+        <div class="top100">&nbsp;</div>
+        <!---------------左邊--------------->
+        <nav class="left0">
+            <h1>
+                JS(基礎)
+            </h1>
+
+            <a href="javascript簡介.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;簡介</h3>
+            </a>
+            <a href="javascript變數.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;變數</h3>
+            </a>
+            <a href="javascript運算子.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;運算子</h3>
+            </a>
+            <a href="javascript流程控制.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;流程控制</h3>
+            </a>
+            <a href="javascript函數.html" class="left101">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;函數</h3>
+            </a>
+            <h1>
+                JS(物件)
+            </h1>
+            <a href="javascript_object.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;Object</h3>
+            </a>
+            <a href="javascript_constructors_bom.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;Constructors & BOM</h3>
+            </a>
+            <a href="javascript_math_date.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;Math & Date</h3>
+            </a>
+            <h1>
+                JS(陣列)
+            </h1>
+            <a href="javascript_array.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;Array</h3>
+            </a>
+            <a href="javascript_map_set.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;Map & Set</h3>
+            </a>
+            <a href="javascript_string.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;String</h3>
+            </a>
+            <h1>
+                JS(DOM)
+            </h1>
+            <a href="javascript_events.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;Events</h3>
+            </a>
+            <a href="javascript_dom.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;DOM</h3>
+            </a>
+            <a href="javascript_event_linstener.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;Event Linstener</h3>
+            </a>
+            <h1>
+                JS(其他)
+            </h1>
+            <a href="javascript_ajax.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;AJAX</h3>
+            </a>
+            <a href="javascript_xml.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;XML</h3>
+            </a>
+            <a href="javascript_json.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;JSON</h3>
+            </a>
+            <a href="javascript_ajax.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;AJAX</h3>
+            </a>
+            <a href="javascript_data_storage.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;Data Storage</h3>
+            </a>
+            <h1>
+                JS(Canvas)
+            </h1>
+            <a href="javascript_drawing_api.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;Drawing API</h3>
+            </a>
+            <a href="javascript_sprites.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;Sprites</h3>
+            </a>
+            <a href="javascript_animation.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;Animation</h3>
+            </a>
+            <a href="javascript_interactive.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;Interactive</h3>
+            </a>
+
+
+
+        </nav>
+        <!---------------中間--------------->
+        <div class="middle0">
+            <h1 class="middle00">函數</h1>
+            &nbsp;&nbsp;&nbsp;
+            <h2 class="middle1">㊙</h2>
+            <h4 class="middle2">函數可以將一段程式碼包裹，便於偵錯及重複使用，需使用關鍵字function。</h4><br>
+
+
+            <pre class="middle34">function hello(){
+    console.log("Hello");
+}	
+hello();</pre>
+
+            <br><br>
+
+
+
+
+
+
+            <div class="middle6">
+                <hr>
+            </div>
+
+            <h1 class="middle00">輸入參數與傳回值</h1>
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.函數可以有輸入值與傳回值，例如以下計算矩形面積的函數:
+            </h4>
+
+            <pre class="middle35">function area(w, h){
+    console.log(w*h);
+}	
+area(10, 20);</pre>
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.想算的是兩個矩形的面積和，此時我們需要讓函數傳回數值，
+                關鍵字為return。將上例修改如下:
+            </h4>
+            <pre class="middle36">function area(w, h){
+    return(w*h);
+}
+console.log(area(10, 20)+area(7, 12));</pre>
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.Javascrip在執行時無法控制是否函數個數是正確的，所以我們必須自己控制。下例表示第二個輸入參數可以省略:
+            </h4>
+            <pre
+                class="middle37"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">fun</span>(<span class="hljs-params">arg1, arg2</span>)</span>{
+    <span class="hljs-keyword">if</span>(!arg1){
+        <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Error</span>(<span class="hljs-string">"arg1 is required."</span>)
+    }<span class="hljs-keyword">else</span>{
+        <span class="hljs-keyword">const</span> a = arg2||<span class="hljs-string">'nothing'</span>;
+        <span class="hljs-keyword">return</span> arg1 + <span class="hljs-string">" is "</span> + a + <span class="hljs-string">"."</span>;
+    }<span class="hljs-comment">//else</span>
+}<span class="hljs-comment">//fun()</span>
+
+<span class="hljs-built_in">console</span>.log(fun(<span class="hljs-string">'This'</span>, <span class="hljs-string">'book'</span>)); <span class="hljs-comment">// This is book.</span>
+<span class="hljs-built_in">console</span>.log(fun(<span class="hljs-string">'That'</span>)); <span class="hljs-comment">// That is nothing.</span></pre>
+
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.現在可以直接給參數初始值即可:
+            </h4>
+            <pre
+                class="middle38"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">usdToNT</span>(<span class="hljs-params">usd, rate=31</span>)</span>{
+    <span class="hljs-keyword">if</span>(!usd){
+        <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Error</span>(<span class="hljs-string">"usd is required."</span>)
+    }<span class="hljs-keyword">else</span>{
+        <span class="hljs-keyword">return</span> usd*rate;
+    }<span class="hljs-comment">//else</span>
+}<span class="hljs-comment">//fun()</span>
+
+<span class="hljs-built_in">console</span>.log(usdToNT(<span class="hljs-number">100</span>, <span class="hljs-number">32</span>)); <span class="hljs-comment">// 3200</span>
+<span class="hljs-built_in">console</span>.log(usdToNT(<span class="hljs-number">100</span>)); <span class="hljs-comment">// 3100</span></pre>
+
+
+
+
+
+
+
+
+
+            <br><br>
+            <div class="middle6">
+                <hr>
+            </div>
+
+            <h1 class="middle00">函數當作變數</h1>
+            &nbsp;&nbsp;&nbsp;
+            <h2 class="middle1">㊙</h2>
+            <h4 class="middle2">一個有趣的功能，可以使用一個變數來表示函數，例如將上例修改如下:</h4><br>
+            <pre class="middle39">var a = function(w, h){
+    return(w*h);
+}
+console.log(a(10, 20)+a(12, 12));</pre>
+
+
+
+
+            <br><br>
+            <div class="middle6">
+                <hr>
+            </div>
+
+            <h1 class="middle00">=></h1>
+            &nbsp;&nbsp;&nbsp;
+            <h2 class="middle1">㊙</h2>
+            <h4 class="middle2">省略了function關鍵字，改用=>符號替代。 箭頭函數與正規函數還是有差別，看看以下例子:</h4><br>
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.這是一個簡寫的函數建立方式，省略function關鍵字，例如之前的hello函數，改寫如下:
+            </h4>
+
+            <pre class="middle40">var helloAgain = () =&gt;{
+    console.log("Hello Again.");
+}
+helloAgain();</pre>
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.若是有參數的情況，例如上述的area函數，改寫如下:
+            </h4>
+
+            <pre class="middle41">let squareArea = (w, h) =&gt;{
+    return(w*h);
+}
+console.log(squareArea(2,6) + squareArea(5,3));</pre>
+
+
+
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.有輸入參數，可以不使用括號，若無輸入參數，需使用括號。
+            </h4><br>&nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;此外，箭頭函數(arrow
+                function)無法hoisting，也就是需在其宣告之後使用。
+            </h4><br>&nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;arrow
+                function不能用作建構子(constructor)，如下例中可以new regular()，若是箭頭函數則不行。
+            </h4>
+            <pre class="middle42"><span class="hljs-keyword">const</span> re = <span class="hljs-keyword">new</span> regular(<span class="hljs-string">"Mary"</span>); <span class="hljs-comment">// 可以hoisting</span>
+<span class="hljs-built_in">console</span>.log(re); <span class="hljs-comment">// regular { name: 'Mary' }</span>
+
+<span class="hljs-keyword">const</span> yes = x =&gt; x*x;
+<span class="hljs-keyword">const</span> noo = () =&gt; {}; <span class="hljs-comment">// 沒有argument的情況需使用()</span>
+<span class="hljs-built_in">console</span>.log(yes(<span class="hljs-number">10</span>)); <span class="hljs-comment">// 100 &gt;&gt; 不能hoisting</span>
+<span class="hljs-built_in">console</span>.log(noo()); <span class="hljs-comment">// undefined</span>
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">regular</span>(<span class="hljs-params">name</span>)</span>{
+    <span class="hljs-keyword">this</span>.name = name
+} <span class="hljs-comment">// a regular function</span></pre>
+
+
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.arrow function無法傳回輸入參數:
+            </h4>
+            <pre class="middle43"><span class="hljs-keyword">const</span> returnArgs = <span class="hljs-function"><span class="hljs-keyword">function</span>()</span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-built_in">arguments</span>;
+}
+<span class="hljs-built_in">console</span>.log(returnArgs(<span class="hljs-number">1</span>,<span class="hljs-string">"do"</span>,<span class="hljs-literal">true</span>)); <span class="hljs-comment">// [A</span>
+<span class="hljs-keyword">const</span> arrowArgs = () =&gt; <span class="hljs-built_in">arguments</span>;
+<span class="hljs-comment">//console.log(arrowArgs(1, "do")); // Error</span></pre>
+
+
+
+
+
+
+
+
+
+            <br><br>
+            <div class="middle6">
+                <hr>
+            </div>
+
+            <h1 class="middle00">不定長度參數</h1>
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.若是輸入參數長度不定，可以使用不定長度參數(使用...表示)，例如:
+            </h4>
+            <pre
+                class="middle44"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">test</span>(<span class="hljs-params">className, ...grades</span>)</span>{
+    <span class="hljs-keyword">let</span> sum = <span class="hljs-number">0</span>;
+    <span class="hljs-keyword">for</span>(<span class="hljs-keyword">let</span> i <span class="hljs-keyword">of</span> grades){
+        sum += i;
+    }
+    <span class="hljs-built_in">console</span>.log(className, <span class="hljs-string">"班，總分為"</span>, sum);
+}
+
+test(<span class="hljs-string">"101"</span>, <span class="hljs-number">48</span>,<span class="hljs-number">78</span>,<span class="hljs-number">89</span>); <span class="hljs-comment">// 101 班，總分為 215</span></pre>
+
+
+
+
+
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.若是所有參數都屬於不定長度參數的部分，也可以直接使用arguments
+                :
+            </h4><br><br>&nbsp;&nbsp;
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A:
+            </h4><br>&nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;const toArr =
+                Array.prototype.slice.call(arguments)表示將arguments強制改為array。
+            </h4>
+
+
+            <pre
+                class="middle45"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">test</span>()</span>{
+    <span class="hljs-keyword">let</span> sum = <span class="hljs-number">0</span>;
+    <span class="hljs-keyword">const</span> toArr = <span class="hljs-built_in">Array</span>.prototype.slice.call(<span class="hljs-built_in">arguments</span>)
+    <span class="hljs-built_in">console</span>.log(toArr);
+    <span class="hljs-keyword">for</span>(<span class="hljs-keyword">let</span> i=<span class="hljs-number">0</span>; i&lt;toArr.length; i++){
+        sum += toArr[i];
+    }
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">"總分為"</span>, sum);
+}
+
+test(<span class="hljs-number">48</span>,<span class="hljs-number">78</span>,<span class="hljs-number">89</span>); <span class="hljs-comment">// 101 班，總分為 215</span></pre>
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B:
+            </h4><br>&nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;有不定長度參數應使用此方式(減少使用arguments)，若與其他參數混雜則為第一例。
+            </h4>
+
+
+            <pre
+                class="middle46"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">test</span>(<span class="hljs-params">...grades</span>)</span>{
+    <span class="hljs-keyword">let</span> sum = <span class="hljs-number">0</span>;
+    <span class="hljs-keyword">for</span>(<span class="hljs-keyword">let</span> i=<span class="hljs-number">0</span>; i&lt;grades.length; i++){
+        sum += grades[i];
+    }
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">"總分為"</span>, sum);
+}
+
+test(<span class="hljs-number">48</span>,<span class="hljs-number">78</span>,<span class="hljs-number">89</span>); <span class="hljs-comment">// 總分為 215</span></pre>
+
+
+
+
+
+
+
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.原則上加上...為數列，沒有...則為陣列(array)。
+            </h4>
+            <pre class="middle47"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">rest</span>(<span class="hljs-params">leading, ...supports</span>)</span>{
+    <span class="hljs-keyword">return</span> [leading, supports.sort()];
+}
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">restAndSpread</span>(<span class="hljs-params">leading, ...supports</span>)</span>{
+    <span class="hljs-keyword">return</span> [leading, ...supports.sort()];
+}
+<span class="hljs-built_in">console</span>.log(rest(<span class="hljs-string">"Will Smith"</span>, <span class="hljs-string">"Bill Pullman"</span>, <span class="hljs-string">"Jeff Goldblum"</span>, <span class="hljs-string">"Margaret Colin"</span>));
+<span class="hljs-comment">// ["Will Smith", [ "Bill Pullman", "Jeff Goldblum", "Margaret Colin" ]]</span>
+<span class="hljs-built_in">console</span>.log(restAndSpread(<span class="hljs-string">"Will Smith"</span>, <span class="hljs-string">"Bill Pullman"</span>, <span class="hljs-string">"Jeff Goldblum"</span>, <span class="hljs-string">"Margaret Colin"</span>));
+<span class="hljs-comment">// [ "Will Smith", "Bill Pullman", "Jeff Goldblum", "Margaret Colin" ]</span></pre>
+
+
+            <br><br>
+            <div class="middle6">
+                <hr>
+            </div>
+
+            <h1 class="middle00">Hoisting & Self-Invoking</h1>
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.函數呼叫的方式，Hoisting的意思是我們可以在函數宣告之前呼叫他，還是會執行，那是因為程式先編譯，所以在執行時已經知道有宣告了。
+            </h4>
+            <pre class="middle48">for(let i = 0; i &lt; 10; i++) // hoisting --&gt; use function before it is declared.
+    console.log("f("+i+")="+f(i));
+
+function f(n){
+    if(n==0){
+        return 0;
+    }else if (n==1){
+        return 1;
+    }else{
+        return f(n-1)+f(n-2);
+    }
+}</pre>
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.self-invoking的意思是自呼叫，也就是不需要呼叫函數便執行，或稱為IIFE(Immediately-Invoked
+                Function Expression)。
+            </h4><br>&nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;假如我們有一個函數名為abc，那麼當我們呼叫它時，要寫abc();其實也可以寫成(abc)();加到小括號內是一樣的。
+            </h4><br>&nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(就好像a+b跟(a+b)一樣的類似)。接下來我們把函數的內容替換掉名字，其實名字就是指函數本身，如下例:
+            </h4><br>&nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A:
+            </h4>
+            <pre class="middle49">(function (){
+    console.log("Greeting.");
+})();
+</pre>
+
+            &nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B:
+            </h4>
+
+            <pre class="middle50">(function (x){
+    console.log(x +" square is " + x*x);
+})(5);
+</pre>
+
+
+            &nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C(模組化):
+            </h4><br>&nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;變數mo相當於一個獨立的模組，傳回是其中定義的函數組合的物件，我們可以呼叫其內的方法，不過其內定義的變數無法讀取(類似private)。
+            </h4><br>&nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;這個方式可以將相關的函數組合起來形成一個Namespace來使用。當然可以寫成物件形式，若是寫成物件形式，變數可以被改變。
+            </h4>
+
+            <pre class="middle51">var mo = (function(){
+    let count = 0;
+    var fun1 = function(){
+        console.log(count);
+    };
+    var fun2 = function(k){
+        return count+k;
+    };
+    return {
+        f1: fun1,
+        f2: fun2
+    };
+})();
+mo.f1();
+console.log(mo.f2(6));
+console.log(mo.count); // undefined</pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <br><br>
+            <div class="middle6">
+                <hr>
+            </div>
+
+            <h1 class="middle00">Closure</h1>
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.操控變數的影響範圍，或讓變數成為private，盡量不要宣告global
+                variable免得與視窗變數產生衝突。
+            </h4><br>&nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sayHello()使用函數內變數，第二個函數傳回sayHello()函數，第二個方式為Closure，此寫法會讓下次呼叫時，
+                裡面的函數保持之前的設定。
+            </h4>
+
+
+
+            <pre class="middle52">function func(){
+    var hello = "Hello, World.";
+    function sayHello(){
+        console.log(hello);
+    }
+    sayHello();
+}
+func();
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">func1</span>()</span>{
+    <span class="hljs-keyword">var</span> hello = <span class="hljs-string">"Hello, World."</span>;
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">sayHello</span>()</span>{
+        <span class="hljs-built_in">console</span>.log(hello);
+    }
+    <span class="hljs-keyword">return</span> sayHello;
+}
+<span class="hljs-keyword">let</span> f = func1();
+f();</pre>
+
+
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.每次呼叫f2()時，會保留之前的環境，所以i的值會每次加1。
+            </h4>
+            <pre class="middle53">function func2(){
+    var i = 0;
+    return function (){
+        console.log(i++);
+    }
+}
+var f2 = func2();
+f2();
+f2();
+f2();</pre>
+
+
+
+
+
+
+
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.另一個寫法，使用let。
+            </h4><br><br>&nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HTML:
+            </h4>
+            <pre
+                class="middle54"><span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"but"</span>&gt;</span>Click<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"show"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span></pre>
+
+            &nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Javascript:
+            </h4>
+            <pre class="middle55"><span class="hljs-meta">'use strict'</span>;
+<span class="hljs-keyword">let</span> counter;
+{
+    <span class="hljs-keyword">let</span> count = <span class="hljs-number">0</span>; 
+    <span class="hljs-keyword">let</span> increment = <span class="hljs-function"><span class="hljs-keyword">function</span> () </span>{ 
+        count++;
+        <span class="hljs-built_in">console</span>.log(count);
+        <span class="hljs-keyword">return</span> count;
+    };
+    counter = {
+        increment: increment,
+    }; 
+}
+<span class="hljs-keyword">let</span> but = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">"but"</span>);
+<span class="hljs-keyword">let</span> show = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">"show"</span>);
+but.addEventListener(<span class="hljs-string">"click"</span>,(event)=&gt;{
+    show.innerText = counter.increment();
+});</pre>
+
+
+
+
+
+
+
+
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.再看一個例子。先使用closure。
+            </h4><br><br>&nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HTML:
+            </h4>
+            <pre
+                class="middle56"><span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onclick</span>=<span class="hljs-string">"g()"</span>&gt;</span>click<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"diva"</span>&gt;</span>div<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></pre>
+
+
+            &nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Javascript:
+            </h4>
+            <pre class="middle57"><span class="hljs-keyword">let</span> diva =<span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">'diva'</span>);
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">gog</span>()</span>{
+    <span class="hljs-keyword">let</span> b = <span class="hljs-literal">true</span>;
+    <span class="hljs-keyword">return</span> <span class="hljs-function"><span class="hljs-keyword">function</span>()</span>{
+        <span class="hljs-keyword">if</span> (b){
+            diva.style.border=<span class="hljs-string">"2px solid red"</span>;
+            b=<span class="hljs-literal">false</span>;
+        }<span class="hljs-keyword">else</span>{
+            diva.style.border = <span class="hljs-string">"none"</span>;
+            b=<span class="hljs-literal">true</span>;
+        }
+    }
+}
+<span class="hljs-keyword">let</span> g = gog();</pre>
+
+
+
+
+
+
+
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.使用let。
+            </h4><br><br>&nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HTML:
+            </h4>
+            <pre
+                class="middle58"><span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onclick</span>=<span class="hljs-string">"gog.g()"</span>&gt;</span>click<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"diva"</span>&gt;</span>div<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></pre>
+
+
+
+            &nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Javascript:
+            </h4>
+            <pre class="middle59"><span class="hljs-keyword">let</span> gog;
+{
+    <span class="hljs-keyword">let</span> b = <span class="hljs-literal">true</span>;
+    <span class="hljs-keyword">let</span> g = <span class="hljs-function"><span class="hljs-keyword">function</span>() </span>{
+        <span class="hljs-keyword">if</span> (b){
+            diva.style.border=<span class="hljs-string">"2px solid red"</span>;
+            b=<span class="hljs-literal">false</span>;
+        }<span class="hljs-keyword">else</span>{
+            diva.style.border = <span class="hljs-string">"none"</span>;
+            b=<span class="hljs-literal">true</span>;
+        }
+    }
+    gog =  {
+        g:g,
+    }
+}</pre>
+
+
+
+
+            <br><br>
+            <div class="middle6">
+                <hr>
+            </div>
+
+            <h1 class="middle00">Currying</h1>
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.把函數的一部分拆成另一個函數來傳回，直接看例子:
+            </h4>
+<pre class="middle60">function greet(greeting, name) {
+    console.log(`${greeting}, ${name}`);
+}
+
+greet("Hello", "Jenny"); // Hello, Jenny</pre>
+
+
+
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.接著把上例改寫，使其傳回一個函數，拆成許多小片段可以方便維護與重複使用，另一個好處是可以提高其彈性與可讀性:
+            </h4>
+<pre class="middle61">function greet(greeting) {
+    return (name) =&gt; {
+        console.log(`${greeting}, ${name}`);
+    }
+}
+
+var hi = greet("Hi");
+hi("Jenny"); // Hi, Jenny
+greet("Hello")("Mia"); // 也可以這樣寫 &gt;&gt; Hello, Mia
+var morning = greet("Good Morning");
+morning("Mary"); // Good Morning, Mary</pre>
+
+
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.一層一層加進去:
+            </h4>
+<pre class="middle62">function greet(greeting) {
+    return (name) =&gt; {
+        return (ask) =&gt; {
+            console.log(`${greeting}, ${name}. ${ask}`);
+        }
+    }
+}
+
+var good = greet("Good morning!")("Helen");
+good("How are you?");</pre>
+
+
+
+
+
+
+
+
+
+
+            <br><br>
+            <div class="middle6">
+                <hr>
+            </div>
+
+
+
+        </div>
+        <!---------------右邊--------------->
+        <div class="right0">
+            <br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img class="right1" src="ad1.jpg" width="250px">
+            <br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img class="right1" src="bd1.jpg" width="250px">
+            <br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img class="right1" src="cd1.jpg" width="250px">
+            <br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img class="right1" src="dd1.png" width="250px">
+        </div>
+    </div>
+</body>
+
+
+
+
+
+</html>

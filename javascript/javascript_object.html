@@ -1,0 +1,1154 @@
+<html>
+
+<head>
+    <title>JavaScript</title>
+    <link rel="shortcut icon" href="JS.png" type="image/x-icon">
+    <link type="text/css" rel="stylesheet" href="javascript.css">
+</head>
+
+<body>
+    <div class="all">
+        <!---------------上面--------------->
+        <div class="top0">
+            <img class="top1" src="up1.png" height="30px">
+        </div>
+        <div class="top00">
+            <a href="https://raymond1655.github.io" class="top2">
+                <h2 class="top3">首頁</h2>
+            </a>
+            <a href="../html/html簡介.html" class="top2">
+                <h2 class="top4">HTML</h2>
+            </a>
+            <a href="css簡介.com" class="top2">
+                <h2 class="top5">CSS</h2>
+            </a>
+            <a href="javascript簡介.html" class="top2">
+                <h2 class="top6">JavaScript</h2>
+            </a>
+        </div>
+        <div class="top100">&nbsp;</div>
+        <!---------------左邊--------------->
+        <nav class="left0">
+            <h1>
+                JS(基礎)
+            </h1>
+
+            <a href="javascript簡介.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;簡介</h3>
+            </a>
+            <a href="javascript變數.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;變數</h3>
+            </a>
+            <a href="javascript運算子.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;運算子</h3>
+            </a>
+            <a href="javascript流程控制.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;流程控制</h3>
+            </a>
+            <a href="javascript函數.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;函數</h3>
+            </a>
+            <h1>
+                JS(物件)
+            </h1>
+            <a href="javascript_object.html" class="left101">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;Object</h3>
+            </a>
+            <a href="javascript_constructors_bom.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;Constructors & BOM</h3>
+            </a>
+            <a href="javascript_math_date.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;Math & Date</h3>
+            </a>
+            <h1>
+                JS(陣列)
+            </h1>
+            <a href="javascript_array.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;Array</h3>
+            </a>
+            <a href="javascript_map_set.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;Map & Set</h3>
+            </a>
+            <a href="javascript_string.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;String</h3>
+            </a>
+            <h1>
+                JS(DOM)
+            </h1>
+            <a href="javascript_events.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;Events</h3>
+            </a>
+            <a href="javascript_dom.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;DOM</h3>
+            </a>
+            <a href="javascript_event_linstener.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;Event Linstener</h3>
+            </a>
+            <h1>
+                JS(其他)
+            </h1>
+            <a href="javascript_ajax.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;AJAX</h3>
+            </a>
+            <a href="javascript_xml.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;XML</h3>
+            </a>
+            <a href="javascript_json.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;JSON</h3>
+            </a>
+            <a href="javascript_ajax.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;AJAX</h3>
+            </a>
+            <a href="javascript_data_storage.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;Data Storage</h3>
+            </a>
+            <h1>
+                JS(Canvas)
+            </h1>
+            <a href="javascript_drawing_api.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;Drawing API</h3>
+            </a>
+            <a href="javascript_sprites.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;Sprites</h3>
+            </a>
+            <a href="javascript_animation.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;Animation</h3>
+            </a>
+            <a href="javascript_interactive.html" class="left1">
+                <h3 class="left2">&nbsp;&nbsp;&nbsp;&nbsp;Interactive</h3>
+            </a>
+
+
+
+        </nav>
+        <!---------------中間--------------->
+        <div class="middle0">
+            <h1 class="middle00">物件</h1>
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JavaScript是物件導向程式(true?)，所以可以建立物件。
+                建立方式舉例如下:
+            </h4>
+
+            <pre class="middle63"><span style="color:#e66170; font-weight:bold; ">var</span> Node <span style="color:#d2cd86; ">=</span> <span style="color:#b060b0; ">{</span>
+    x<span style="color:#b060b0; ">:</span> <span style="color:#008c00; ">50</span><span style="color:#d2cd86; ">,</span>
+    y<span style="color:#b060b0; ">:</span> <span style="color:#008c00; ">50</span><span style="color:#d2cd86; ">,</span>
+    demand<span style="color:#b060b0; ">:</span> <span style="color:#008c00; ">100</span><span style="color:#d2cd86; ">,</span>
+    isVisited<span style="color:#b060b0; ">:</span> <span style="color:#0f4d75; ">false</span>
+<span style="color:#b060b0; ">}</span>
+</pre>
+
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲使用var來宣告。
+            </h4><br>
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲變數給值是使用冒號 ( : ) ，而變數之間是用逗點 ( , ) 分開。
+            </h4><br>
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲我們可以試著使用，加上以下的程式碼:
+            </h4>
+            <pre class="middle64">console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>Node<span style="color:#d2cd86; ">.</span>x <span style="color:#d2cd86; ">+</span> <span style="color:#02d045; ">"</span><span style="color:#00c4c4; "> </span><span style="color:#02d045; ">"</span> <span style="color:#d2cd86; ">+</span> Node<span style="color:#d2cd86; ">.</span>y <span style="color:#d2cd86; ">+</span> <span style="color:#02d045; ">"</span><span style="color:#00c4c4; "> </span><span style="color:#02d045; ">"</span> <span style="color:#d2cd86; ">+</span> Node<span style="color:#d2cd86; ">.</span>demand <span style="color:#d2cd86; ">+</span> <span style="color:#02d045; ">"</span><span style="color:#00c4c4; "> </span><span style="color:#02d045; ">"</span> <span style="color:#d2cd86; ">+</span> Node<span style="color:#d2cd86; ">.</span>isVisited<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+</pre>
+
+
+
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲若是在物件之外要改變裡面的值，可以使用點(.)， 例如在印出之前加上
+            </h4>
+            <pre class="middle65">Node<span style="color:#d2cd86; ">.</span>x <span style="color:#d2cd86; ">=</span> <span style="color:#008c00; ">80</span><span style="color:#b060b0; ">;</span>
+</pre>
+
+
+
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲另一個方式是使用中括號[變數名]來取得變數，例如再加上
+            </h4>
+            <pre class="middle66">Node<span style="color:#d2cd86; ">[</span><span style="color:#02d045; ">"</span><span style="color:#00c4c4; ">isVisited</span><span style="color:#02d045; ">"</span><span style="color:#d2cd86; ">]</span> <span style="color:#d2cd86; ">=</span> <span style="color:#0f4d75; ">true</span><span style="color:#b060b0; ">;</span>
+</pre>
+
+
+
+            <br><br>
+            <div class="middle6">
+                <hr>
+            </div>
+
+            <h1 class="middle00">物件方法</h1>
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲物件內除了有變數，還可以加上方法，原則上就是加上函數，修改上例如下:
+            </h4>
+            <pre class="middle67"><span style="color:#e66170; font-weight:bold; ">var</span> Node <span style="color:#d2cd86; ">=</span> <span style="color:#b060b0; ">{</span>
+    x<span style="color:#b060b0; ">:</span> <span style="color:#008c00; ">50</span><span style="color:#d2cd86; ">,</span>
+    y<span style="color:#b060b0; ">:</span> <span style="color:#008c00; ">50</span><span style="color:#d2cd86; ">,</span>
+    demand<span style="color:#b060b0; ">:</span> <span style="color:#008c00; ">100</span><span style="color:#d2cd86; ">,</span>
+    isVisited<span style="color:#b060b0; ">:</span> <span style="color:#0f4d75; ">false</span><span style="color:#d2cd86; ">,</span>
+
+    nodeInfo<span style="color:#b060b0; ">:</span> <span style="color:#e66170; font-weight:bold; ">function</span><span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+        <span style="color:#e66170; font-weight:bold; ">return</span> <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>x <span style="color:#d2cd86; ">+</span> <span style="color:#02d045; ">"</span><span style="color:#00c4c4; "> </span><span style="color:#02d045; ">"</span> <span style="color:#d2cd86; ">+</span> <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>y <span style="color:#d2cd86; ">+</span> <span style="color:#02d045; ">"</span><span style="color:#00c4c4; "> </span><span style="color:#02d045; ">"</span> <span style="color:#d2cd86; ">+</span> <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>demand <span style="color:#d2cd86; ">+</span> <span style="color:#02d045; ">"</span><span style="color:#00c4c4; "> </span><span style="color:#02d045; ">"</span> <span style="color:#d2cd86; ">+</span> <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>isVisited<span style="color:#b060b0; ">;</span>
+    <span style="color:#b060b0; ">}</span><span style="color:#9999a9; ">//nodeInfo	</span>
+<span style="color:#b060b0; ">}</span>
+Node<span style="color:#d2cd86; ">.</span>x <span style="color:#d2cd86; ">=</span> <span style="color:#008c00; ">80</span><span style="color:#b060b0; ">;</span>
+Node<span style="color:#d2cd86; ">[</span><span style="color:#02d045; ">"</span><span style="color:#00c4c4; ">isVisited</span><span style="color:#02d045; ">"</span><span style="color:#d2cd86; ">]</span> <span style="color:#d2cd86; ">=</span> <span style="color:#0f4d75; ">true</span><span style="color:#b060b0; ">;</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>Node<span style="color:#d2cd86; ">.</span>nodeInfo<span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+</pre>
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;說明:
+            </h4><br>&nbsp;&nbsp;&nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;方法也算是一種變數，所以與變數間一樣用逗點(,)分開。
+                方法與方法之間也是使用逗點(,)分開。
+            </h4><br>&nbsp;&nbsp;&nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;通常定義物件內的函數為方法(method)，非物件內的函數為函數(function)，事實上所有的函數都是方法，因為函數是屬於全域物件(window)的方法。
+            </h4><br>&nbsp;&nbsp;&nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;需使用this關鍵字來取得物件內的參數。即使是方法。關於this的說明如下:(此會顯示Window)
+            </h4>
+            <pre class="middle68"><span style="color:#e66170; font-weight:bold; ">var</span> t <span style="color:#d2cd86; ">=</span> <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#b060b0; ">;</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>t<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+</pre>
+
+
+
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲函數也可以用來建立物件，如下:
+            </h4>
+            <pre class="middle69"><span style="color:#e66170; font-weight:bold; ">function</span> fun<span style="color:#d2cd86; ">(</span>a<span style="color:#d2cd86; ">,</span> b<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+    <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>a <span style="color:#d2cd86; ">=</span> a<span style="color:#b060b0; ">;</span>
+    <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>b <span style="color:#d2cd86; ">=</span> b<span style="color:#b060b0; ">;</span>
+    <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>afun <span style="color:#d2cd86; ">=</span>  <span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span> <span style="color:#d2cd86; ">=</span><span style="color:#d2cd86; ">&gt;</span> <span style="color:#b060b0; ">{</span><span style="color:#e66170; font-weight:bold; ">return</span> <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>a <span style="color:#d2cd86; ">*</span> <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>b<span style="color:#b060b0; ">;</span><span style="color:#b060b0; ">}</span>
+<span style="color:#b060b0; ">}</span>
+
+<span style="color:#e66170; font-weight:bold; ">var</span> f <span style="color:#d2cd86; ">=</span> <span style="color:#e66170; font-weight:bold; ">new</span> fun<span style="color:#d2cd86; ">(</span><span style="color:#008c00; ">10</span><span style="color:#d2cd86; ">,</span> <span style="color:#008c00; ">20</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>f<span style="color:#d2cd86; ">.</span>a <span style="color:#d2cd86; ">+</span> <span style="color:#02d045; ">"</span><span style="color:#00c4c4; "> </span><span style="color:#02d045; ">"</span> <span style="color:#d2cd86; ">+</span> f<span style="color:#d2cd86; ">.</span>b<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>f<span style="color:#d2cd86; ">.</span>afun<span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+</pre>
+
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲混合著使用:
+            </h4>
+            <pre class="middle70"><span class="hljs-function"><span class="hljs-keyword" style="color: rgb(150, 203, 254);">function</span> <span class="hljs-title" style="color: rgb(255, 255, 182);">createObj</span>(<span class="hljs-params">a, b</span>)</span>{
+    <span class="hljs-keyword" style="color: rgb(150, 203, 254);">let</span> obj={
+        a: a,
+        b: b,
+        toString: <span class="hljs-function"><span class="hljs-keyword" style="color: rgb(150, 203, 254);">function</span>(<span class="hljs-params"></span>)</span>{
+            <span class="hljs-keyword" style="color: rgb(150, 203, 254);">return</span> <span class="hljs-string" style="color: rgb(168, 255, 96);">`a:<span class="hljs-subst" style="color: rgb(218, 239, 163);">${this.a}</span>, b:<span class="hljs-subst" style="color: rgb(218, 239, 163);">${this.b}</span>`</span>;
+        }
+    }
+    <span class="hljs-keyword" style="color: rgb(150, 203, 254);">return</span> obj;
+}
+
+<span class="hljs-keyword" style="color: rgb(150, 203, 254);">let</span> o1 = createObj(<span class="hljs-number" style="color: rgb(255, 115, 253);">1</span>,<span class="hljs-number" style="color: rgb(255, 115, 253);">2</span>);
+<span class="hljs-built_in">console</span>.log(o1.toString());
+<span class="hljs-keyword" style="color: rgb(150, 203, 254);">let</span> o2 = createObj(<span class="hljs-number" style="color: rgb(255, 115, 253);">10</span>, <span class="hljs-number" style="color: rgb(255, 115, 253);">20</span>);
+o2.b = <span class="hljs-number" style="color: rgb(255, 115, 253);">200</span>;
+<span class="hljs-built_in">console</span>.log(o2.toString());</pre>
+
+
+
+
+
+
+
+
+
+
+
+
+            <br><br>
+            <div class="middle6">
+                <hr>
+            </div>
+
+            <h1 class="middle00">call & apply</h1>
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲call()跟apply()兩個函數是用來呼叫一個方法，而輸入參數是物件。例如以下的例子:
+            </h4>
+            <pre class="middle71"><span style="color:#e66170; font-weight:bold; ">var</span> nodeA <span style="color:#d2cd86; ">=</span> <span style="color:#b060b0; ">{</span>
+    x<span style="color:#b060b0; ">:</span> <span style="color:#008c00; ">30</span><span style="color:#d2cd86; ">,</span>
+    y<span style="color:#b060b0; ">:</span> <span style="color:#008c00; ">50</span>
+<span style="color:#b060b0; ">}</span>
+<span style="color:#e66170; font-weight:bold; ">var</span> nodeB <span style="color:#d2cd86; ">=</span> <span style="color:#b060b0; ">{</span>
+    x<span style="color:#b060b0; ">:</span> <span style="color:#008c00; ">10</span><span style="color:#d2cd86; ">,</span>
+    y<span style="color:#b060b0; ">:</span> <span style="color:#008c00; ">80</span>
+<span style="color:#b060b0; ">}</span>
+<span style="color:#e66170; font-weight:bold; ">var</span> arc<span style="color:#d2cd86; ">=</span><span style="color:#b060b0; ">{</span>
+    endpoint<span style="color:#b060b0; ">:</span> <span style="color:#e66170; font-weight:bold; ">function</span><span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+        <span style="color:#e66170; font-weight:bold; ">return</span> <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>x <span style="color:#d2cd86; ">+</span> <span style="color:#02d045; ">"</span><span style="color:#00c4c4; "> </span><span style="color:#02d045; ">"</span> <span style="color:#d2cd86; ">+</span> <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>y<span style="color:#b060b0; ">;</span>
+    <span style="color:#b060b0; ">}</span>
+<span style="color:#b060b0; ">}</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>arc<span style="color:#d2cd86; ">.</span>endpoint<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">call</span><span style="color:#d2cd86; ">(</span>nodeA<span style="color:#d2cd86; ">)</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>arc<span style="color:#d2cd86; ">.</span>endpoint<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">apply</span><span style="color:#d2cd86; ">(</span>nodeB<span style="color:#d2cd86; ">)</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+</pre>
+
+
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;說明:
+            </h4><br>&nbsp;&nbsp;&nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;建立三個物件，其中arc的方法endpoint將使用到node的變數。
+            </h4><br>&nbsp;&nbsp;&nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;使用call()或是apply()來取得物件內的變數將其用於方法內。
+            </h4><br>&nbsp;&nbsp;&nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;兩者的不同處是apply()接受參數為陣列型態。例如我們將上例的arc改寫如下並呼叫:(可以看到apply需使用陣列型態)
+            </h4>
+            <pre class="middle72"><span style="color:#e66170; font-weight:bold; ">var</span> arc<span style="color:#d2cd86; ">=</span><span style="color:#b060b0; ">{</span>
+    endpoint<span style="color:#b060b0; ">:</span> <span style="color:#e66170; font-weight:bold; ">function</span><span style="color:#d2cd86; ">(</span>id<span style="color:#d2cd86; ">,</span> demand<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+        <span style="color:#e66170; font-weight:bold; ">return</span> <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>x <span style="color:#d2cd86; ">+</span> <span style="color:#02d045; ">"</span><span style="color:#00c4c4; "> </span><span style="color:#02d045; ">"</span> <span style="color:#d2cd86; ">+</span> <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>y <span style="color:#d2cd86; ">+</span> <span style="color:#02d045; ">"</span><span style="color:#00c4c4; "> </span><span style="color:#02d045; ">"</span> <span style="color:#d2cd86; ">+</span> id <span style="color:#d2cd86; ">+</span> <span style="color:#02d045; ">"</span><span style="color:#00c4c4; "> </span><span style="color:#02d045; ">"</span> <span style="color:#d2cd86; ">+</span> demand<span style="color:#b060b0; ">;</span>
+    <span style="color:#b060b0; ">}</span>
+<span style="color:#b060b0; ">}</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>arc<span style="color:#d2cd86; ">.</span>endpoint<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">call</span><span style="color:#d2cd86; ">(</span>nodeA<span style="color:#d2cd86; ">,</span> <span style="color:#02d045; ">"</span><span style="color:#00c4c4; ">A</span><span style="color:#02d045; ">"</span><span style="color:#d2cd86; ">,</span> <span style="color:#008c00; ">100</span><span style="color:#d2cd86; ">)</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>arc<span style="color:#d2cd86; ">.</span>endpoint<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">apply</span><span style="color:#d2cd86; ">(</span>nodeB<span style="color:#d2cd86; ">,</span> <span style="color:#d2cd86; ">[</span><span style="color:#02d045; ">"</span><span style="color:#00c4c4; ">B</span><span style="color:#02d045; ">"</span><span style="color:#d2cd86; ">,</span> <span style="color:#008c00; ">200</span><span style="color:#d2cd86; ">]</span><span style="color:#d2cd86; ">)</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+</pre>
+
+
+
+
+
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲原則上函數只要加上小括號()便可以執行，使用call與apply也可以執行，似乎有點多餘。原則上call與apply主要是可以指定執行時的this值。基本語法如下:
+            </h4>
+            <pre class="middle73">fun<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">call</span><span style="color:#d2cd86; ">(</span>thisArg<span style="color:#d2cd86; ">[</span><span style="color:#d2cd86; ">,</span> arg1<span style="color:#d2cd86; ">[</span><span style="color:#d2cd86; ">,</span> arg2<span style="color:#d2cd86; ">[</span><span style="color:#d2cd86; ">,</span> <span style="color:#d2cd86; ">.</span><span style="color:#d2cd86; ">.</span><span style="color:#d2cd86; ">.</span><span style="color:#d2cd86; ">]</span><span style="color:#d2cd86; ">]</span><span style="color:#d2cd86; ">]</span><span style="color:#d2cd86; ">)</span>
+fun<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">apply</span><span style="color:#d2cd86; ">(</span>thisArg<span style="color:#d2cd86; ">,</span> <span style="color:#d2cd86; ">[</span>argsArray<span style="color:#d2cd86; ">]</span><span style="color:#d2cd86; ">)</span>
+</pre>
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲上例中的endpoint函數使用call或apply呼叫時，傳入的第一個參數就是執行時所需的this值，若是函數還有本身的輸入參數，直接寫在this參數之後即可
+            </h4><br>&nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;唯一不同是apply僅接受兩個輸入參數，也就是說第二個參數需為陣列。在此我們再做個簡單的例子。
+            </h4><br>&nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;原則上就是執行一個簡單的函數，因為不需要特定的this值，所以兩種寫法都可以。
+            </h4>
+
+            <pre class="middle74"><span style="color:#e66170; font-weight:bold; ">function</span> whatever<span style="color:#d2cd86; ">(</span>a<span style="color:#d2cd86; ">,</span> b<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+	<span style="color:#e66170; font-weight:bold; ">return</span> a<span style="color:#d2cd86; ">+</span>b<span style="color:#b060b0; ">;</span>
+<span style="color:#b060b0; ">}</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>whatever<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">call</span><span style="color:#d2cd86; ">(</span><span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">,</span> <span style="color:#008c00; ">3</span><span style="color:#d2cd86; ">,</span><span style="color:#008c00; ">6</span><span style="color:#d2cd86; ">)</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>whatever<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">call</span><span style="color:#d2cd86; ">(</span><span style="color:#0f4d75; ">null</span><span style="color:#d2cd86; ">,</span> <span style="color:#008c00; ">3</span><span style="color:#d2cd86; ">,</span><span style="color:#008c00; ">6</span><span style="color:#d2cd86; ">)</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>whatever<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">apply</span><span style="color:#d2cd86; ">(</span><span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">,</span> <span style="color:#d2cd86; ">[</span><span style="color:#008c00; ">3</span><span style="color:#d2cd86; ">,</span><span style="color:#008c00; ">6</span><span style="color:#d2cd86; ">]</span><span style="color:#d2cd86; ">)</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>whatever<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">apply</span><span style="color:#d2cd86; ">(</span><span style="color:#0f4d75; ">null</span><span style="color:#d2cd86; ">,</span> <span style="color:#d2cd86; ">[</span><span style="color:#008c00; ">3</span><span style="color:#d2cd86; ">,</span><span style="color:#008c00; ">6</span><span style="color:#d2cd86; ">]</span><span style="color:#d2cd86; ">)</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+</pre>
+
+
+
+
+
+
+
+
+            <br><br>
+            <div class="middle6">
+                <hr>
+            </div>
+
+            <h1 class="middle00">bind</h1>
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲bind跟call與apply類似，也是可以指定this值，但其效果是可以建立一個新的綁定了this值的函數(BF)，呼叫BF會執行該wrapped
+                function。語法如下:
+            </h4>
+            <pre class="middle75">fun<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">bind</span><span style="color:#d2cd86; ">(</span>thisArg<span style="color:#d2cd86; ">[</span><span style="color:#d2cd86; ">,</span> arg1<span style="color:#d2cd86; ">[</span><span style="color:#d2cd86; ">,</span> arg2<span style="color:#d2cd86; ">[</span><span style="color:#d2cd86; ">,</span> <span style="color:#d2cd86; ">.</span><span style="color:#d2cd86; ">.</span><span style="color:#d2cd86; ">.</span><span style="color:#d2cd86; ">]</span><span style="color:#d2cd86; ">]</span><span style="color:#d2cd86; ">]</span><span style="color:#d2cd86; ">)</span>
+</pre>
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲看個例子:
+            </h4>
+            <pre class="middle76"><span style="color:#e66170; font-weight:bold; ">function</span> whatever<span style="color:#d2cd86; ">(</span>a<span style="color:#d2cd86; ">,</span> b<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+	<span style="color:#e66170; font-weight:bold; ">return</span> a<span style="color:#d2cd86; ">+</span>b<span style="color:#b060b0; ">;</span>
+<span style="color:#b060b0; ">}</span>
+<span style="color:#e66170; font-weight:bold; ">let</span> w <span style="color:#d2cd86; ">=</span> whatever<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">bind</span><span style="color:#d2cd86; ">(</span><span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">,</span> <span style="color:#008c00; ">10</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span><span style="color:#9999a9; ">// or null</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>w<span style="color:#d2cd86; ">(</span><span style="color:#008c00; ">20</span><span style="color:#d2cd86; ">)</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+</pre>
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲函數w便是產生的BF，且已綁定第一個參數為10。類似currying的效果:
+            </h4>
+            <pre class="middle77"><span style="color:#e66170; font-weight:bold; ">function</span> curry<span style="color:#d2cd86; ">(</span>a<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+	<span style="color:#e66170; font-weight:bold; ">return</span> <span style="color:#e66170; font-weight:bold; ">function</span><span style="color:#d2cd86; ">(</span>b<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+		<span style="color:#e66170; font-weight:bold; ">return</span> a<span style="color:#d2cd86; ">+</span>b<span style="color:#b060b0; ">;</span>
+	<span style="color:#b060b0; ">}</span>
+<span style="color:#b060b0; ">}</span>
+<span style="color:#e66170; font-weight:bold; ">let</span> c <span style="color:#d2cd86; ">=</span> curry<span style="color:#d2cd86; ">(</span><span style="color:#008c00; ">5</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>c<span style="color:#d2cd86; ">(</span><span style="color:#008c00; ">7</span><span style="color:#d2cd86; ">)</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+</pre>
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲再一個例子，建立一個物件作為this的值，再使用bind()建立BF。
+            </h4>
+            <pre class="middle78"><span style="color:#e66170; font-weight:bold; ">let</span> obj <span style="color:#d2cd86; ">=</span> <span style="color:#b060b0; ">{</span>
+	x<span style="color:#b060b0; ">:</span> <span style="color:#008c00; ">1</span><span style="color:#d2cd86; ">,</span>
+	y<span style="color:#b060b0; ">:</span> <span style="color:#008c00; ">2</span>
+<span style="color:#b060b0; ">}</span>
+<span style="color:#e66170; font-weight:bold; ">function</span> toBind<span style="color:#d2cd86; ">(</span>a<span style="color:#d2cd86; ">,</span> b<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+	<span style="color:#e66170; font-weight:bold; ">return</span> a<span style="color:#d2cd86; ">*</span><span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>x<span style="color:#d2cd86; ">+</span>b<span style="color:#d2cd86; ">*</span><span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>y<span style="color:#b060b0; ">;</span>
+<span style="color:#b060b0; ">}</span>
+<span style="color:#e66170; font-weight:bold; ">let</span> bf <span style="color:#d2cd86; ">=</span> toBind<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">bind</span><span style="color:#d2cd86; ">(</span>obj<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>bf<span style="color:#d2cd86; ">(</span><span style="color:#008c00; ">1</span><span style="color:#d2cd86; ">,</span><span style="color:#008c00; ">2</span><span style="color:#d2cd86; ">)</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+</pre>
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲練習:
+            </h4>
+            <pre
+                class="middle79">astring <span style="color:#d2cd86; ">=</span> <span style="color:#02d045; ">"</span><span style="color:#00c4c4; ">Global string</span><span style="color:#02d045; ">"</span><span style="color:#b060b0; ">;</span>
+<span style="color:#e66170; font-weight:bold; ">function</span> printString<span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+    console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span><span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>astring<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+<span style="color:#b060b0; ">}</span>
+
+<span style="color:#e66170; font-weight:bold; ">class</span> AClass<span style="color:#b060b0; ">{</span>
+    constructor<span style="color:#d2cd86; ">(</span>a<span style="color:#d2cd86; ">,</span> b<span style="color:#d2cd86; ">)</span> <span style="color:#b060b0; ">{</span>
+        <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>astring <span style="color:#d2cd86; ">=</span> a<span style="color:#b060b0; ">;</span>
+        <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>b <span style="color:#d2cd86; ">=</span> b<span style="color:#b060b0; ">;</span>
+    <span style="color:#b060b0; ">}</span>
+    print<span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span> <span style="color:#b060b0; ">{</span>
+        printString<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">call</span><span style="color:#d2cd86; ">(</span><span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span> <span style="color:#9999a9; ">// this 指稱此物件</span>
+    <span style="color:#b060b0; ">}</span>
+<span style="color:#b060b0; ">}</span>
+ac <span style="color:#d2cd86; ">=</span> <span style="color:#e66170; font-weight:bold; ">new</span> AClass<span style="color:#d2cd86; ">(</span><span style="color:#02d045; ">"</span><span style="color:#00c4c4; ">Object string</span><span style="color:#02d045; ">"</span><span style="color:#d2cd86; ">,</span> <span style="color:#02d045; ">"</span><span style="color:#00c4c4; ">Whatever</span><span style="color:#02d045; ">"</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+
+printString<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">call</span><span style="color:#d2cd86; ">(</span><span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span> <span style="color:#9999a9; ">// this 指稱window, 亦可使用apply</span>
+printString<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">call</span><span style="color:#d2cd86; ">(</span>ac<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span> <span style="color:#9999a9; ">// 直接傳入物件表示呼叫物件內變數(等同於print()內的call(this)</span>
+ac<span style="color:#d2cd86; ">.</span>print<span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+<span style="color:#9999a9; ">// 使用bind來連結</span>
+<span style="color:#e66170; font-weight:bold; ">var</span> bindFun1 <span style="color:#d2cd86; ">=</span> printString<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">bind</span><span style="color:#d2cd86; ">(</span><span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+<span style="color:#e66170; font-weight:bold; ">var</span> bindFun2 <span style="color:#d2cd86; ">=</span> printString<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">bind</span><span style="color:#d2cd86; ">(</span>ac<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+
+bindFun1<span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span> <span style="color:#9999a9; ">// Global String</span>
+bindFun2<span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span> <span style="color:#9999a9; ">// Object String</span></pre>
+
+
+
+
+            <br><br>
+            <div class="middle6">
+                <hr>
+            </div>
+
+            <h1 class="middle00">new</h1>
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲除了上述的方式建立物件，也可以使用new關鍵字來建立，舉例如下:(看結果可知nodeC為一新建立的物件)
+            </h4>
+            <pre class="middle80"><span style="color:#e66170; font-weight:bold; ">var</span> nodeC <span style="color:#d2cd86; ">=</span> <span style="color:#e66170; font-weight:bold; ">new</span> Object<span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+nodeC<span style="color:#d2cd86; ">.</span>x <span style="color:#d2cd86; ">=</span> <span style="color:#008c00; ">11</span><span style="color:#b060b0; ">;</span>
+nodeC<span style="color:#d2cd86; ">.</span>y <span style="color:#d2cd86; ">=</span> <span style="color:#008c00; ">11</span><span style="color:#b060b0; ">;</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>arc<span style="color:#d2cd86; ">.</span>endpoint<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">call</span><span style="color:#d2cd86; ">(</span>nodeC<span style="color:#d2cd86; ">,</span> <span style="color:#02d045; ">"</span><span style="color:#00c4c4; ">C</span><span style="color:#02d045; ">"</span><span style="color:#d2cd86; ">,</span> <span style="color:#008c00; ">11</span><span style="color:#d2cd86; ">)</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+</pre>
+
+
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲如果我們使用等號(=)將一個物件指派給另一個變數，原則上是傳址，也就是此時兩者為同一物件，
+                改變其中一個的數值會跟著改變另一個。
+            </h4><br>&nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;將nodeA指派給變數nodeD，改變nodeD的x,y值，根據結果可知nodeA的x,y值也跟著更改了。
+            </h4>
+            <pre
+                class="middle81"><span style="color:#e66170; font-weight:bold; ">var</span> nodeD <span style="color:#d2cd86; ">=</span> nodeA<span style="color:#b060b0; ">;</span>
+nodeD<span style="color:#d2cd86; ">.</span>x <span style="color:#d2cd86; ">=</span> <span style="color:#008c00; ">22</span><span style="color:#b060b0; ">;</span>
+nodeD<span style="color:#d2cd86; ">.</span>y <span style="color:#d2cd86; ">=</span> <span style="color:#008c00; ">22</span><span style="color:#b060b0; ">;</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>arc<span style="color:#d2cd86; ">.</span>endpoint<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">call</span><span style="color:#d2cd86; ">(</span>nodeD<span style="color:#d2cd86; ">,</span> <span style="color:#02d045; ">"</span><span style="color:#00c4c4; ">D</span><span style="color:#02d045; ">"</span><span style="color:#d2cd86; ">,</span> <span style="color:#008c00; ">222</span><span style="color:#d2cd86; ">)</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>arc<span style="color:#d2cd86; ">.</span>endpoint<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">call</span><span style="color:#d2cd86; ">(</span>nodeA<span style="color:#d2cd86; ">,</span> <span style="color:#02d045; ">"</span><span style="color:#00c4c4; ">A</span><span style="color:#02d045; ">"</span><span style="color:#d2cd86; ">,</span> <span style="color:#008c00; ">333</span><span style="color:#d2cd86; ">)</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span></pre>
+
+
+
+
+
+            <br><br>
+            <div class="middle6">
+                <hr>
+            </div>
+
+            <h1 class="middle00">for in</h1>
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲若是要traverse整個物件，可以使用for in語法，例如:
+            </h4>
+            <pre class="middle82"><span style="color:#e66170; font-weight:bold; ">for</span> <span style="color:#d2cd86; ">(</span>i <span style="color:#e66170; font-weight:bold; ">in</span> Node<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+    console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>i<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+<span style="color:#b060b0; ">}</span>
+</pre>
+
+
+
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲這個方式可以很便利的依次取得物件中的所有變數名稱(當然包含方法)。
+            </h4>
+            <pre class="middle83">console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>i<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+</pre>
+
+
+
+
+
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲若是要得到變數的值，可以修改為:
+            </h4>
+            <pre class="middle84">console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>Node<span style="color:#d2cd86; ">[</span>i<span style="color:#d2cd86; ">]</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+</pre>
+
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲這是前述取得物件變數值得方式，那為何不使用Node.i呢?那是因為取得的i的資料型態是字串，所以會出錯。如下例:
+            </h4>
+            <pre
+                class="middle85"><span class="hljs-keyword" style="color: rgb(150, 203, 254);">let</span> arr = [<span class="hljs-number" style="color: rgb(255, 115, 253);">1</span>,<span class="hljs-number" style="color: rgb(255, 115, 253);">2</span>,<span class="hljs-number" style="color: rgb(255, 115, 253);">3</span>];
+<span class="hljs-keyword" style="color: rgb(150, 203, 254);">let</span> k = <span class="hljs-number" style="color: rgb(255, 115, 253);">0</span>;
+<span class="hljs-keyword" style="color: rgb(150, 203, 254);">for</span> (i <span class="hljs-keyword" style="color: rgb(150, 203, 254);">in</span> arr){
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-keyword" style="color: rgb(150, 203, 254);">typeof</span>(i)); <span class="hljs-comment" style="color: rgb(124, 124, 124);">// string</span>
+    k = k + i;
+}
+<span class="hljs-built_in">console</span>.log(k); <span class="hljs-comment" style="color: rgb(124, 124, 124);">// 0012</span></pre>
+
+
+
+
+
+
+
+
+
+            <br><br>
+            <div class="middle6">
+                <hr>
+            </div>
+
+            <h1 class="middle00">adding & deleting properties</h1>
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲JavaScript允許我們自外部加上屬性，即使原來物件中並無定義也可以，例如修改之前的nodeC物件如下:(可以看到物件多了一個demand的屬性)
+            </h4>
+            <pre class="middle86">nodeC<span style="color:#d2cd86; ">.</span>demand <span style="color:#d2cd86; ">=</span> <span style="color:#008c00; ">123</span><span style="color:#b060b0; ">;</span>
+<span style="color:#e66170; font-weight:bold; ">for</span> <span style="color:#d2cd86; ">(</span>i <span style="color:#e66170; font-weight:bold; ">in</span> nodeC<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+    console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>i <span style="color:#d2cd86; ">+</span> <span style="color:#02d045; ">"</span><span style="color:#00c4c4; ">--&gt;</span><span style="color:#02d045; ">"</span> <span style="color:#d2cd86; ">+</span> nodeC<span style="color:#d2cd86; ">[</span>i<span style="color:#d2cd86; ">]</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+<span style="color:#b060b0; ">}</span>
+</pre>
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲若是要加入新的方法也可以，舉例如下:(新的方法info()被加入到nodeC內了)
+            </h4>
+            <pre class="middle87">nodeC<span style="color:#d2cd86; ">.</span>info <span style="color:#d2cd86; ">=</span> <span style="color:#e66170; font-weight:bold; ">function</span><span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+    <span style="color:#e66170; font-weight:bold; ">return</span> <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>x <span style="color:#d2cd86; ">+</span> <span style="color:#02d045; ">"</span><span style="color:#00c4c4; "> </span><span style="color:#02d045; ">"</span> <span style="color:#d2cd86; ">+</span> <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>y <span style="color:#d2cd86; ">+</span> <span style="color:#02d045; ">"</span><span style="color:#00c4c4; "> </span><span style="color:#02d045; ">"</span> <span style="color:#d2cd86; ">+</span> <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>demand<span style="color:#b060b0; ">;</span>
+<span style="color:#b060b0; ">}</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>nodeC<span style="color:#d2cd86; ">.</span>info<span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+</pre>
+
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲可以刪除屬性，使用delete關鍵字，例如:(繼承而來的物件，只會刪除此物件內屬性，若是被繼承的物件，則繼承的物件內屬性都會被刪除。)
+            </h4>
+            <pre class="middle88"><span style="color:#e66170; font-weight:bold; ">delete</span> nodeC<span style="color:#d2cd86; ">.</span>demand<span style="color:#b060b0; ">;</span>
+<span style="color:#e66170; font-weight:bold; ">for</span> <span style="color:#d2cd86; ">(</span>i <span style="color:#e66170; font-weight:bold; ">in</span> nodeC<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+    console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>i <span style="color:#d2cd86; ">+</span> <span style="color:#02d045; ">"</span><span style="color:#00c4c4; ">--&gt;</span><span style="color:#02d045; ">"</span> <span style="color:#d2cd86; ">+</span> nodeC<span style="color:#d2cd86; ">[</span>i<span style="color:#d2cd86; ">]</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+<span style="color:#b060b0; ">}</span>
+</pre>
+
+
+
+
+
+
+
+
+
+            <br><br>
+            <div class="middle6">
+                <hr>
+            </div>
+
+            <h1 class="middle00">constructor</h1>
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲對於同一類別的物件建立一個設計圖，此稱constructor，然後根據此類別來產生物件。在JavaScript使用關鍵字function來達成。例如:
+            </h4><br>&nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;根據此方式便可以建立物件。但是不可以在外部增加constructor的屬性，如此物件無法取得該屬性。
+            </h4>
+            <pre class="middle89"><span style="color:#e66170; font-weight:bold; ">function</span> TheNode<span style="color:#d2cd86; ">(</span>id<span style="color:#d2cd86; ">,</span> x<span style="color:#d2cd86; ">,</span> y<span style="color:#d2cd86; ">,</span> demand<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+    <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>id <span style="color:#d2cd86; ">=</span> id<span style="color:#b060b0; ">;</span>
+    <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>x <span style="color:#d2cd86; ">=</span> x<span style="color:#b060b0; ">;</span>
+    <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>y <span style="color:#d2cd86; ">=</span> y<span style="color:#b060b0; ">;</span>
+    <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>demand <span style="color:#d2cd86; ">=</span> demand<span style="color:#b060b0; ">;</span>
+    <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>info <span style="color:#d2cd86; ">=</span> <span style="color:#e66170; font-weight:bold; ">function</span><span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+        <span style="color:#e66170; font-weight:bold; ">return</span> <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>id <span style="color:#d2cd86; ">+</span> <span style="color:#02d045; ">"</span><span style="color:#00c4c4; "> </span><span style="color:#02d045; ">"</span> <span style="color:#d2cd86; ">+</span><span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>x <span style="color:#d2cd86; ">+</span> <span style="color:#02d045; ">"</span><span style="color:#00c4c4; "> </span><span style="color:#02d045; ">"</span> <span style="color:#d2cd86; ">+</span> <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>y <span style="color:#d2cd86; ">+</span> <span style="color:#02d045; ">"</span><span style="color:#00c4c4; "> </span><span style="color:#02d045; ">"</span> <span style="color:#d2cd86; ">+</span> <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>demand<span style="color:#b060b0; ">;</span>
+    <span style="color:#b060b0; ">}</span><span style="color:#b060b0; ">;</span>
+<span style="color:#b060b0; ">}</span>
+<span style="color:#e66170; font-weight:bold; ">var</span> na <span style="color:#d2cd86; ">=</span> <span style="color:#e66170; font-weight:bold; ">new</span> TheNode<span style="color:#d2cd86; ">(</span><span style="color:#02d045; ">"</span><span style="color:#00c4c4; ">A</span><span style="color:#02d045; ">"</span><span style="color:#d2cd86; ">,</span> <span style="color:#008c00; ">100</span><span style="color:#d2cd86; ">,</span> <span style="color:#008c00; ">100</span><span style="color:#d2cd86; ">,</span> <span style="color:#008c00; ">100</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+<span style="color:#e66170; font-weight:bold; ">var</span> nb <span style="color:#d2cd86; ">=</span> <span style="color:#e66170; font-weight:bold; ">new</span> TheNode<span style="color:#d2cd86; ">(</span><span style="color:#02d045; ">"</span><span style="color:#00c4c4; ">B</span><span style="color:#02d045; ">"</span><span style="color:#d2cd86; ">,</span> <span style="color:#008c00; ">200</span><span style="color:#d2cd86; ">,</span> <span style="color:#008c00; ">200</span><span style="color:#d2cd86; ">,</span> <span style="color:#008c00; ">200</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>na<span style="color:#d2cd86; ">.</span>info<span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span> <span style="color:#d2cd86; ">+</span> <span style="color:#02d045; ">"</span><span style="color:#008080; ">\t</span><span style="color:#02d045; ">"</span> <span style="color:#d2cd86; ">+</span> nb<span style="color:#d2cd86; ">.</span>info<span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+</pre>
+
+
+
+
+
+
+
+
+
+            <br><br>
+            <div class="middle6">
+                <hr>
+            </div>
+
+            <h1 class="middle00">constructor</h1>
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲JavaScript尚可使用class關鍵字來建立物件:
+            </h4>
+            <pre class="middle90"><span style="color:#e66170; font-weight:bold; ">class</span> ANode<span style="color:#b060b0; ">{</span>
+    constructor<span style="color:#d2cd86; ">(</span>id<span style="color:#d2cd86; ">,</span> x<span style="color:#d2cd86; ">,</span> y<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+        <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>id <span style="color:#d2cd86; ">=</span> id<span style="color:#b060b0; ">;</span>
+        <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>x <span style="color:#d2cd86; ">=</span> x<span style="color:#b060b0; ">;</span>
+        <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>y <span style="color:#d2cd86; ">=</span> y<span style="color:#b060b0; ">;</span>
+        <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>demand <span style="color:#d2cd86; ">=</span> <span style="color:#008c00; ">100</span><span style="color:#b060b0; ">;</span>
+    <span style="color:#b060b0; ">}</span>
+    info<span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+        <span style="color:#e66170; font-weight:bold; ">return</span> <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>id <span style="color:#d2cd86; ">+</span> <span style="color:#02d045; ">"</span><span style="color:#00c4c4; "> </span><span style="color:#02d045; ">"</span> <span style="color:#d2cd86; ">+</span><span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>x <span style="color:#d2cd86; ">+</span> <span style="color:#02d045; ">"</span><span style="color:#00c4c4; "> </span><span style="color:#02d045; ">"</span> <span style="color:#d2cd86; ">+</span> <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>y <span style="color:#d2cd86; ">+</span> <span style="color:#02d045; ">"</span><span style="color:#00c4c4; "> </span><span style="color:#02d045; ">"</span> <span style="color:#d2cd86; ">+</span> <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>demand<span style="color:#b060b0; ">;</span>
+    <span style="color:#b060b0; ">}</span>
+<span style="color:#b060b0; ">}</span>
+<span style="color:#e66170; font-weight:bold; ">var</span> nodeOne <span style="color:#d2cd86; ">=</span> <span style="color:#e66170; font-weight:bold; ">new</span> ANode<span style="color:#d2cd86; ">(</span><span style="color:#02d045; ">"</span><span style="color:#00c4c4; ">One</span><span style="color:#02d045; ">"</span><span style="color:#d2cd86; ">,</span> <span style="color:#008c00; ">11</span><span style="color:#d2cd86; ">,</span> <span style="color:#008c00; ">12</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+<span style="color:#e66170; font-weight:bold; ">let</span> nodeTwo <span style="color:#d2cd86; ">=</span> <span style="color:#e66170; font-weight:bold; ">new</span> ANode<span style="color:#d2cd86; ">(</span><span style="color:#02d045; ">"</span><span style="color:#00c4c4; ">Two</span><span style="color:#02d045; ">"</span><span style="color:#d2cd86; ">,</span> <span style="color:#008c00; ">22</span><span style="color:#d2cd86; ">,</span> <span style="color:#008c00; ">25</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+nodeTwo<span style="color:#d2cd86; ">.</span>demand <span style="color:#d2cd86; ">=</span> <span style="color:#008c00; ">200</span><span style="color:#b060b0; ">;</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span><span style="color:#02d045; ">'</span><span style="color:#00c4c4; ">one-&gt;</span><span style="color:#02d045; ">'</span><span style="color:#d2cd86; ">,</span> nodeOne<span style="color:#d2cd86; ">.</span>info<span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span><span style="color:#d2cd86; ">,</span> <span style="color:#02d045; ">'</span><span style="color:#00c4c4; ">two-&gt;</span><span style="color:#02d045; ">'</span> <span style="color:#d2cd86; ">,</span>nodeTwo<span style="color:#d2cd86; ">.</span>info<span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+</pre>
+
+
+
+
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲this在物件中指的便是instance本身。在JS中，若不是在物件中，指的便是Window，如果是strict
+                mode指的變數undefined。this的值是可以被改變的，例如:
+            </h4><br>&nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;上例中可以看出this的default
+                value是undefined，而call與apply的差別則是apply僅接受兩個參數，第二個參數為arguments的array(兩者的第一個參數皆為this)。
+            </h4><br>&nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;而bind較為不同則是傳回一個this被重新定義的新函數(也就是說test.bind("this
+                value")會傳回一個新的函數，此函數中的this為bind()的輸入參數。
+            </h4><br>&nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;此外，bind()後的函數其this無法再被修改。
+            </h4>
+            <pre class="middle91"
+                style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(0, 0, 0); color: rgb(248, 248, 248);"><span class="hljs-meta" style="color: rgb(124, 124, 124);">'use strict'</span>;
+<span class="hljs-function"><span class="hljs-keyword" style="color: rgb(150, 203, 254);">function</span> <span class="hljs-title" style="color: rgb(255, 255, 182);">test</span>(<span class="hljs-params">a,b</span>) </span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-keyword" style="color: rgb(150, 203, 254);">this</span>, a, b);
+}
+test(<span class="hljs-number" style="color: rgb(255, 115, 253);">1</span>,<span class="hljs-number" style="color: rgb(255, 115, 253);">2</span>); <span class="hljs-comment" style="color: rgb(124, 124, 124);">// undefined 1 2</span>
+test.call(<span class="hljs-literal" style="color: rgb(198, 197, 254);">undefined</span>, <span class="hljs-number" style="color: rgb(255, 115, 253);">1</span>, <span class="hljs-number" style="color: rgb(255, 115, 253);">2</span>); <span class="hljs-comment" style="color: rgb(124, 124, 124);">// undefined 1 2</span>
+test.apply(<span class="hljs-literal" style="color: rgb(198, 197, 254);">undefined</span>, [<span class="hljs-number" style="color: rgb(255, 115, 253);">1</span>, <span class="hljs-number" style="color: rgb(255, 115, 253);">2</span>]); <span class="hljs-comment" style="color: rgb(124, 124, 124);">// undefined 1 2</span>
+test.call(<span class="hljs-string" style="color: rgb(168, 255, 96);">"value of this"</span>, <span class="hljs-number" style="color: rgb(255, 115, 253);">1</span>, <span class="hljs-number" style="color: rgb(255, 115, 253);">2</span>); <span class="hljs-comment" style="color: rgb(124, 124, 124);">// value of this 1 2</span>
+test.apply(<span class="hljs-number" style="color: rgb(255, 115, 253);">100</span>, [<span class="hljs-number" style="color: rgb(255, 115, 253);">1</span>, <span class="hljs-number" style="color: rgb(255, 115, 253);">2</span>]); <span class="hljs-comment" style="color: rgb(124, 124, 124);">// 100 1 2</span>
+test.bind(<span class="hljs-string" style="color: rgb(168, 255, 96);">"value of this"</span>)(<span class="hljs-number" style="color: rgb(255, 115, 253);">1</span>,<span class="hljs-number" style="color: rgb(255, 115, 253);">2</span>); <span class="hljs-comment" style="color: rgb(124, 124, 124);">// value of this 1 2</span></pre>
+
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲在hi()中的this.name沒有問題，就是這個instance中的this.name。
+            </h4><br>&nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;但是在hello()內this.name，因為其宣告之所在是在hello()內的函數內，所以其this.name為undefined。
+            </h4>
+            <pre class="middle92"
+                style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(0, 0, 0); color: rgb(248, 248, 248);"><span class="hljs-class"><span class="hljs-keyword" style="color: rgb(150, 203, 254);">class</span> <span class="hljs-title" style="color: rgb(255, 255, 182);">Greeting</span></span>{
+    <span class="hljs-keyword" style="color: rgb(150, 203, 254);">constructor</span>(name){
+      <span class="hljs-keyword" style="color: rgb(150, 203, 254);">this</span>.name = name;
+    }
+    hi(){
+      <span class="hljs-built_in">console</span>.log(<span class="hljs-string" style="color: rgb(168, 255, 96);">'Hi, '</span>,<span class="hljs-keyword" style="color: rgb(150, 203, 254);">this</span>.name);
+    }
+    hello(){
+      setTimeout(<span class="hljs-function"><span class="hljs-keyword" style="color: rgb(150, 203, 254);">function</span>(<span class="hljs-params"></span>)</span>{
+        <span class="hljs-built_in">console</span>.log(<span class="hljs-string" style="color: rgb(168, 255, 96);">'Hello!, '</span>,<span class="hljs-keyword" style="color: rgb(150, 203, 254);">this</span>.name)
+      }, <span class="hljs-number" style="color: rgb(255, 115, 253);">1000</span>); <span class="hljs-comment" style="color: rgb(124, 124, 124);">// 經過一秒</span>
+    }
+  }
+  <span class="hljs-keyword" style="color: rgb(150, 203, 254);">let</span> gr = <span class="hljs-keyword" style="color: rgb(150, 203, 254);">new</span> Greeting(<span class="hljs-string" style="color: rgb(168, 255, 96);">'Jenny'</span>);
+  gr.hi();   <span class="hljs-comment" style="color: rgb(124, 124, 124);">// Hi,  Jenny</span>
+  gr.hello(); <span class="hljs-comment" style="color: rgb(124, 124, 124);">// Hello!,  undefined</span></pre>
+
+
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲將原來的this先儲存起來(命名為self)，然後再使用self.name。
+            </h4>
+            <pre class="middle93"
+                style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(0, 0, 0); color: rgb(248, 248, 248);"><span class="hljs-class"><span class="hljs-keyword" style="color: rgb(150, 203, 254);">class</span> <span class="hljs-title" style="color: rgb(255, 255, 182);">Greeting</span></span>{
+    <span class="hljs-keyword" style="color: rgb(150, 203, 254);">constructor</span>(name){
+      <span class="hljs-keyword" style="color: rgb(150, 203, 254);">this</span>.name = name;
+    }
+    hi(){
+      <span class="hljs-built_in">console</span>.log(<span class="hljs-string" style="color: rgb(168, 255, 96);">'Hi, '</span>,<span class="hljs-keyword" style="color: rgb(150, 203, 254);">this</span>.name);
+    }
+    hello(){
+      <span class="hljs-keyword" style="color: rgb(150, 203, 254);">const</span> self = <span class="hljs-keyword" style="color: rgb(150, 203, 254);">this</span>;
+      setTimeout(<span class="hljs-function"><span class="hljs-keyword" style="color: rgb(150, 203, 254);">function</span>(<span class="hljs-params"></span>)</span>{
+        <span class="hljs-built_in">console</span>.log(<span class="hljs-string" style="color: rgb(168, 255, 96);">'Hello!, '</span>,self.name)
+      }, <span class="hljs-number" style="color: rgb(255, 115, 253);">1000</span>); <span class="hljs-comment" style="color: rgb(124, 124, 124);">// 經過一秒</span>
+    }
+  }
+  <span class="hljs-keyword" style="color: rgb(150, 203, 254);">let</span> gr = <span class="hljs-keyword" style="color: rgb(150, 203, 254);">new</span> Greeting(<span class="hljs-string" style="color: rgb(168, 255, 96);">'Jenny'</span>);
+  gr.hi();   <span class="hljs-comment" style="color: rgb(124, 124, 124);">// Hi,  Jenny</span>
+  gr.hello(); <span class="hljs-comment" style="color: rgb(124, 124, 124);">// Hello!,  Jenny</span></pre>
+
+
+
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲第二個方式是使用bind()，將原來的this綁入形成新的函數。
+            </h4>
+            <pre class="middle94"
+                style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(0, 0, 0); color: rgb(248, 248, 248);"><span class="hljs-class"><span class="hljs-keyword" style="color: rgb(150, 203, 254);">class</span> <span class="hljs-title" style="color: rgb(255, 255, 182);">Greeting</span></span>{
+    <span class="hljs-keyword" style="color: rgb(150, 203, 254);">constructor</span>(name){
+      <span class="hljs-keyword" style="color: rgb(150, 203, 254);">this</span>.name = name;
+    }
+    hi(){
+      <span class="hljs-built_in">console</span>.log(<span class="hljs-string" style="color: rgb(168, 255, 96);">'Hi, '</span>,<span class="hljs-keyword" style="color: rgb(150, 203, 254);">this</span>.name);
+    }
+    hello(){
+      setTimeout(<span class="hljs-function"><span class="hljs-keyword" style="color: rgb(150, 203, 254);">function</span>(<span class="hljs-params"></span>)</span>{
+        <span class="hljs-built_in">console</span>.log(<span class="hljs-string" style="color: rgb(168, 255, 96);">'Hello!, '</span>, <span class="hljs-keyword" style="color: rgb(150, 203, 254);">this</span>.name)
+      }.bind(<span class="hljs-keyword" style="color: rgb(150, 203, 254);">this</span>), <span class="hljs-number" style="color: rgb(255, 115, 253);">1000</span>); <span class="hljs-comment" style="color: rgb(124, 124, 124);">// 經過一秒</span>
+    }
+  }
+  <span class="hljs-keyword" style="color: rgb(150, 203, 254);">let</span> gr = <span class="hljs-keyword" style="color: rgb(150, 203, 254);">new</span> Greeting(<span class="hljs-string" style="color: rgb(168, 255, 96);">'Jenny'</span>);
+  gr.hi();   <span class="hljs-comment" style="color: rgb(124, 124, 124);">// Hi,  Jenny</span>
+  gr.hello(); <span class="hljs-comment" style="color: rgb(124, 124, 124);">// Hello!,  Jenny</span></pre>
+
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲第三個方式是使用箭頭函數來寫feedback函數即可。因為箭頭函數沒有this，所以其內的this相當於宣告處的this。
+            </h4>
+            <pre class="middle95"
+                style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(0, 0, 0); color: rgb(248, 248, 248);"><span class="hljs-class"><span class="hljs-keyword" style="color: rgb(150, 203, 254);">class</span> <span class="hljs-title" style="color: rgb(255, 255, 182);">Greeting</span></span>{
+    <span class="hljs-keyword" style="color: rgb(150, 203, 254);">constructor</span>(name){
+      <span class="hljs-keyword" style="color: rgb(150, 203, 254);">this</span>.name = name;
+    }
+    hi(){
+      <span class="hljs-built_in">console</span>.log(<span class="hljs-string" style="color: rgb(168, 255, 96);">'Hi, '</span>,<span class="hljs-keyword" style="color: rgb(150, 203, 254);">this</span>.name);
+    }
+    hello(){
+      setTimeout(()=&gt;{
+        <span class="hljs-built_in">console</span>.log(<span class="hljs-string" style="color: rgb(168, 255, 96);">'Hello!, '</span>, <span class="hljs-keyword" style="color: rgb(150, 203, 254);">this</span>.name)
+      }, <span class="hljs-number" style="color: rgb(255, 115, 253);">1000</span>); <span class="hljs-comment" style="color: rgb(124, 124, 124);">// 經過一秒</span>
+    }
+  }
+  <span class="hljs-keyword" style="color: rgb(150, 203, 254);">let</span> gr = <span class="hljs-keyword" style="color: rgb(150, 203, 254);">new</span> Greeting(<span class="hljs-string" style="color: rgb(168, 255, 96);">'Jenny'</span>);
+  gr.hi();   <span class="hljs-comment" style="color: rgb(124, 124, 124);">// Hi,  Jenny</span>
+  gr.hello(); <span class="hljs-comment" style="color: rgb(124, 124, 124);">// Hello!,  Jenny</span></pre>
+
+
+
+
+
+            <br><br>
+            <div class="middle6">
+                <hr>
+            </div>
+
+            <h1 class="middle00">getter & setter and private variable</h1>
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲在建立物件時，我們常需要使用getter&setter方式來存取變數值，主要的原因是可能變數是private。
+            </h4><br>&nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;不欲讓外部改變其值，另一個原因則是要控制值的範圍(例如有個變數為age，很大部分的情況下便不接受負值)。要注意的是private的設定並不是所有瀏覽器都支援。例如:
+            </h4>
+            <pre class="middle96"><span style="color:#e66170; font-weight:bold; ">class</span> Node<span style="color:#b060b0; ">{</span>
+	#demand <span style="color:#9999a9; ">// FireFox &amp; IE 不支援private variable</span>
+    constructor<span style="color:#d2cd86; ">(</span>id<span style="color:#d2cd86; ">,</span> xx<span style="color:#d2cd86; ">,</span> y<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+        <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>id <span style="color:#d2cd86; ">=</span> id<span style="color:#b060b0; ">;</span>
+        <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>xValue <span style="color:#d2cd86; ">=</span> xx<span style="color:#b060b0; ">;</span>
+        <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>y <span style="color:#d2cd86; ">=</span> y<span style="color:#b060b0; ">;</span>
+        <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>#demand <span style="color:#d2cd86; ">=</span> <span style="color:#008c00; ">100</span><span style="color:#b060b0; ">;</span>
+    <span style="color:#b060b0; ">}</span>
+	get x<span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+		<span style="color:#e66170; font-weight:bold; ">return</span> <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>xValue<span style="color:#b060b0; ">;</span>
+	<span style="color:#b060b0; ">}</span>
+	set x<span style="color:#d2cd86; ">(</span>newX<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+		<span style="color:#e66170; font-weight:bold; ">if</span> <span style="color:#d2cd86; ">(</span>newX <span style="color:#d2cd86; ">&gt;=</span> <span style="color:#008c00; ">0</span> <span style="color:#d2cd86; ">&amp;&amp;</span> newX <span style="color:#d2cd86; ">&lt;=</span> <span style="color:#008c00; ">100</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+			<span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>xValue <span style="color:#d2cd86; ">=</span> newX<span style="color:#b060b0; ">;</span>
+		<span style="color:#b060b0; ">}</span><span style="color:#e66170; font-weight:bold; ">else</span><span style="color:#b060b0; ">{</span>
+			<span style="color:#e66170; font-weight:bold; ">throw</span> <span style="color:#e66170; font-weight:bold; ">new</span> Error<span style="color:#d2cd86; ">(</span><span style="color:#02d045; ">"</span><span style="color:#00c4c4; ">x has to be within 0 and 100</span><span style="color:#02d045; ">"</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+		<span style="color:#b060b0; ">}</span>
+	<span style="color:#b060b0; ">}</span>
+	get demand<span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+		<span style="color:#e66170; font-weight:bold; ">return</span> <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>#demand<span style="color:#b060b0; ">;</span>
+	<span style="color:#b060b0; ">}</span>
+	set demand<span style="color:#d2cd86; ">(</span>newDemand<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+		<span style="color:#e66170; font-weight:bold; ">throw</span> <span style="color:#e66170; font-weight:bold; ">new</span> Error<span style="color:#d2cd86; ">(</span><span style="color:#02d045; ">"</span><span style="color:#00c4c4; ">demand value is read only</span><span style="color:#02d045; ">"</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+	<span style="color:#b060b0; ">}</span>
+    info<span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+        <span style="color:#e66170; font-weight:bold; ">return</span> <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>id <span style="color:#d2cd86; ">+</span> <span style="color:#02d045; ">"</span><span style="color:#00c4c4; "> </span><span style="color:#02d045; ">"</span> <span style="color:#d2cd86; ">+</span><span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>x <span style="color:#d2cd86; ">+</span> <span style="color:#02d045; ">"</span><span style="color:#00c4c4; "> </span><span style="color:#02d045; ">"</span> <span style="color:#d2cd86; ">+</span> <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>y <span style="color:#d2cd86; ">+</span> <span style="color:#02d045; ">"</span><span style="color:#00c4c4; "> </span><span style="color:#02d045; ">"</span> <span style="color:#d2cd86; ">+</span> <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>demand<span style="color:#b060b0; ">;</span>
+    <span style="color:#b060b0; ">}</span>
+<span style="color:#b060b0; ">}</span>
+
+<span style="color:#e66170; font-weight:bold; ">let</span> a <span style="color:#d2cd86; ">=</span> <span style="color:#e66170; font-weight:bold; ">new</span> Node<span style="color:#d2cd86; ">(</span><span style="color:#008c00; ">1</span><span style="color:#d2cd86; ">,</span> <span style="color:#008c00; ">2</span><span style="color:#d2cd86; ">,</span> <span style="color:#008c00; ">3</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>a<span style="color:#d2cd86; ">.</span>x<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+a<span style="color:#d2cd86; ">.</span>x <span style="color:#d2cd86; ">=</span> <span style="color:#008c00; ">18</span><span style="color:#b060b0; ">;</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>a<span style="color:#d2cd86; ">.</span>x<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>a<span style="color:#d2cd86; ">.</span>demand<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+<span style="color:#9999a9; ">// a.demand = 999; // Uncaught Error: demand value is read only</span>
+a<span style="color:#d2cd86; ">.</span>x <span style="color:#d2cd86; ">=</span> <span style="color:#008c00; ">200</span><span style="color:#b060b0; ">;</span> <span style="color:#9999a9; ">// Uncaught Error: x has to be within 0 and 100</span>
+</pre>
+
+
+
+
+
+            <br><br>
+            <div class="middle6">
+                <hr>
+            </div>
+
+            <h1 class="middle00">private method</h1>
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲與private
+                variable類似，僅需要在方法前面加#字號即可變成private method。(一樣要注意並非所有瀏覽器都支援。FireFox & IE 不支援。)
+            </h4>
+            <pre class="middle97"><span style="color:#e66170; font-weight:bold; ">class</span> Arc<span style="color:#b060b0; ">{</span>
+	constructor<span style="color:#d2cd86; ">(</span>na<span style="color:#d2cd86; ">,</span> nb<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+		<span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>na <span style="color:#d2cd86; ">=</span> na<span style="color:#b060b0; ">;</span>
+		<span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>nb <span style="color:#d2cd86; ">=</span> nb<span style="color:#b060b0; ">;</span>
+		<span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>len <span style="color:#d2cd86; ">=</span> <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>#arcLength<span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+	<span style="color:#b060b0; ">}</span>
+	#arcLength<span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span> <span style="color:#9999a9; ">/* private method &gt;&gt; 前面加#字號 */</span>
+		<span style="color:#e66170; font-weight:bold; ">return</span> Math<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">sqrt</span><span style="color:#d2cd86; ">(</span>Math<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">pow</span><span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">(</span><span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>na<span style="color:#d2cd86; ">.</span>x<span style="color:#d2cd86; ">-</span><span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>nb<span style="color:#d2cd86; ">.</span>x<span style="color:#d2cd86; ">)</span><span style="color:#d2cd86; ">,</span><span style="color:#008c00; ">2</span><span style="color:#d2cd86; ">)</span> <span style="color:#d2cd86; ">+</span> Math<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">pow</span><span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">(</span><span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>na<span style="color:#d2cd86; ">.</span>y<span style="color:#d2cd86; ">-</span><span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>nb<span style="color:#d2cd86; ">.</span>y<span style="color:#d2cd86; ">)</span><span style="color:#d2cd86; ">,</span><span style="color:#008c00; ">2</span><span style="color:#d2cd86; ">)</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+	<span style="color:#b060b0; ">}</span>
+<span style="color:#b060b0; ">}</span>
+
+a <span style="color:#d2cd86; ">=</span> <span style="color:#e66170; font-weight:bold; ">new</span> Node<span style="color:#d2cd86; ">(</span><span style="color:#008c00; ">1</span><span style="color:#d2cd86; ">,</span><span style="color:#008c00; ">2</span><span style="color:#d2cd86; ">,</span><span style="color:#008c00; ">3</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+b <span style="color:#d2cd86; ">=</span> <span style="color:#e66170; font-weight:bold; ">new</span> Node<span style="color:#d2cd86; ">(</span><span style="color:#008c00; ">2</span><span style="color:#d2cd86; ">,</span><span style="color:#008c00; ">9</span><span style="color:#d2cd86; ">,</span><span style="color:#008c00; ">5</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+arc <span style="color:#d2cd86; ">=</span> <span style="color:#e66170; font-weight:bold; ">new</span> Arc<span style="color:#d2cd86; ">(</span>a<span style="color:#d2cd86; ">,</span> b<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>arc<span style="color:#d2cd86; ">.</span>len<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+</pre>
+
+
+
+
+
+            <br><br>
+            <div class="middle6">
+                <hr>
+            </div>
+
+            <h1 class="middle00">繼承(Inheritance)</h1>
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲可將constructor與methods分開來寫，易分類，跟Java的寫法較為類似。尚可跟Java一樣使用extends關鍵字做繼承，super關鍵字來呼叫父類別。
+            </h4>
+            <pre class="middle98"><span style="color:#e66170; font-weight:bold; ">class</span> SNode <span style="color:#e66170; font-weight:bold; ">extends</span> ANode<span style="color:#b060b0; ">{</span>
+    constructor<span style="color:#d2cd86; ">(</span>id<span style="color:#d2cd86; ">,</span> x<span style="color:#d2cd86; ">,</span> y<span style="color:#d2cd86; ">,</span> size<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+        <span style="color:#e66170; font-weight:bold; ">super</span><span style="color:#d2cd86; ">(</span>id<span style="color:#d2cd86; ">,</span> x<span style="color:#d2cd86; ">,</span> y<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+        <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>size <span style="color:#d2cd86; ">=</span> size<span style="color:#b060b0; ">;</span>
+    <span style="color:#b060b0; ">}</span>
+    setSize<span style="color:#d2cd86; ">(</span>size<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+        <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>size <span style="color:#d2cd86; ">=</span> size<span style="color:#b060b0; ">;</span>
+    <span style="color:#b060b0; ">}</span>
+    info<span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+        <span style="color:#e66170; font-weight:bold; ">return</span> <span style="color:#e66170; font-weight:bold; ">super</span><span style="color:#d2cd86; ">.</span>info<span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span> <span style="color:#d2cd86; ">+</span> <span style="color:#02d045; ">"</span><span style="color:#00c4c4; "> </span><span style="color:#02d045; ">"</span> <span style="color:#d2cd86; ">+</span> <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>size<span style="color:#b060b0; ">;</span>
+    <span style="color:#b060b0; ">}</span>
+<span style="color:#b060b0; ">}</span>
+<span style="color:#e66170; font-weight:bold; ">var</span> nodeThree <span style="color:#d2cd86; ">=</span> <span style="color:#e66170; font-weight:bold; ">new</span> SNode<span style="color:#d2cd86; ">(</span><span style="color:#02d045; ">"</span><span style="color:#00c4c4; ">Three</span><span style="color:#02d045; ">"</span><span style="color:#d2cd86; ">,</span> <span style="color:#008c00; ">33</span><span style="color:#d2cd86; ">,</span> <span style="color:#008c00; ">36</span><span style="color:#d2cd86; ">,</span> <span style="color:#008c00; ">5</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+nodeThree<span style="color:#d2cd86; ">.</span>setSize<span style="color:#d2cd86; ">(</span><span style="color:#008c00; ">6</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>nodeThree<span style="color:#d2cd86; ">.</span>info<span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+</pre>
+
+
+
+
+
+
+            <br><br>
+            <div class="middle6">
+                <hr>
+            </div>
+
+            <h1 class="middle00">Prototype</h1>
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲原型(Prototype)是所有物件繼承鏈的最頂端，之前提到不能在外部增加constructor的屬性，但是可以修改其原型(Prototype)來達到修改的目的。例如:
+            </h4><br>&nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在剛才的constructor的prototype加上一個新的變數跟一個新的方法。
+            </h4>
+            <pre class="middle99">TheNode<span style="color:#d2cd86; ">.</span>prototype<span style="color:#d2cd86; ">.</span>isVisited <span style="color:#d2cd86; ">=</span> <span style="color:#0f4d75; ">false</span><span style="color:#b060b0; ">;</span>
+TheNode<span style="color:#d2cd86; ">.</span>prototype<span style="color:#d2cd86; ">.</span>printInfo <span style="color:#d2cd86; ">=</span> <span style="color:#e66170; font-weight:bold; ">function</span><span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+    console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span><span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>info<span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span> <span style="color:#d2cd86; ">+</span> <span style="color:#02d045; ">"</span><span style="color:#008080; ">\t</span><span style="color:#02d045; ">"</span> <span style="color:#d2cd86; ">+</span> <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>isVisited<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+<span style="color:#b060b0; ">}</span>
+na<span style="color:#d2cd86; ">.</span>printInfo<span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+nb<span style="color:#d2cd86; ">.</span>printInfo<span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+</pre>
+
+
+
+
+
+
+
+            <br><br>
+            <div class="middle6">
+                <hr>
+            </div>
+
+            <h1 class="middle00">Prototype</h1>
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲雖然我們可以使用class來定義物件，不過原則上在javascript與其他語言的物件不同，class這個Syntactic
+                sugar只是讓我們容易coding，根本上還是在修改prototype。
+            </h4><br>&nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在JS中，所有函數都有一個內建的prototype，指向一個prototype物件。
+            </h4>
+            <pre class="middle100"><span style="color:#e66170; font-weight:bold; ">function</span> Person<span style="color:#d2cd86; ">(</span>name<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+	<span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>name <span style="color:#d2cd86; ">=</span> name<span style="color:#b060b0; ">;</span>
+<span style="color:#b060b0; ">}</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>Person<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>Person<span style="color:#d2cd86; ">.</span>prototype<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>Person<span style="color:#d2cd86; ">.</span>prototype<span style="color:#d2cd86; ">.</span>constructor <span style="color:#d2cd86; ">===</span> Person<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span> <span style="color:#9999a9; ">// true</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>Person<span style="color:#d2cd86; ">.</span>__proto__<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span><span style="color:#9999a9; ">// 指向函數的prototype</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>Person<span style="color:#d2cd86; ">.</span>prototype<span style="color:#d2cd86; ">.</span>__proto__<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span> <span style="color:#9999a9; ">// 指向物件的prototype</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>Function<span style="color:#d2cd86; ">.</span>prototype<span style="color:#d2cd86; ">.</span>__proto__<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span> <span style="color:#9999a9; ">// 指向物件的prototype</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>Object<span style="color:#d2cd86; ">.</span>prototype<span style="color:#d2cd86; ">.</span>__proto__<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span> <span style="color:#9999a9; ">// null</span>
+</pre>
+
+
+
+
+
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲因為prototype物件中的constructor指向原來物件，所以感覺有點像無窮迴圈，互相指來指去。
+            </h4><br>&nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__proto__是物件的內部屬性，代表繼承而來的源頭。當產生instance時，其關係如下例:
+            </h4>
+            <pre class="middle101"><span style="color:#e66170; font-weight:bold; ">function</span> Person<span style="color:#d2cd86; ">(</span>name<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+	<span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>name <span style="color:#d2cd86; ">=</span> name<span style="color:#b060b0; ">;</span>
+<span style="color:#b060b0; ">}</span>
+<span style="color:#e66170; font-weight:bold; ">let</span> tom <span style="color:#d2cd86; ">=</span> <span style="color:#e66170; font-weight:bold; ">new</span> Person<span style="color:#d2cd86; ">(</span><span style="color:#02d045; ">'</span><span style="color:#00c4c4; ">Tom</span><span style="color:#02d045; ">'</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>tom<span style="color:#d2cd86; ">.</span>prototype<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span> <span style="color:#9999a9; ">// undefined, tom是instance沒有prototype</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>tom<span style="color:#d2cd86; ">.</span>__proto__<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span> <span style="color:#9999a9; ">// 指向Person.prototype</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>tom<span style="color:#d2cd86; ">.</span>__proto__<span style="color:#d2cd86; ">===</span>Person<span style="color:#d2cd86; ">.</span>prototype<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span> <span style="color:#9999a9; ">// true</span>
+</pre>
+
+
+
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲因此我們可以使用函數的prototype修改其相關屬性。
+            </h4>
+            <pre class="middle102"><span style="color:#e66170; font-weight:bold; ">function</span> Person<span style="color:#d2cd86; ">(</span>name<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+	<span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>name <span style="color:#d2cd86; ">=</span> name<span style="color:#b060b0; ">;</span>
+<span style="color:#b060b0; ">}</span>
+<span style="color:#e66170; font-weight:bold; ">let</span> tom <span style="color:#d2cd86; ">=</span> <span style="color:#e66170; font-weight:bold; ">new</span> Person<span style="color:#d2cd86; ">(</span><span style="color:#02d045; ">'</span><span style="color:#00c4c4; ">Tom</span><span style="color:#02d045; ">'</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+Person<span style="color:#d2cd86; ">.</span>prototype<span style="color:#d2cd86; ">.</span>isMale <span style="color:#d2cd86; ">=</span> <span style="color:#0f4d75; ">true</span><span style="color:#b060b0; ">;</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>tom<span style="color:#d2cd86; ">.</span>isMale<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span> <span style="color:#9999a9; ">// true</span>
+Person<span style="color:#d2cd86; ">.</span>prototype<span style="color:#d2cd86; ">.</span>toString <span style="color:#d2cd86; ">=</span> <span style="color:#e66170; font-weight:bold; ">function</span><span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span> <span style="color:#9999a9; ">// 不能使用箭頭函數</span>
+	<span style="color:#e66170; font-weight:bold; ">return</span><span style="color:#02d045; "> `</span><span style="color:#02d045; ">${</span><span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span><span style="color:#00c4c4; ">name</span><span style="color:#02d045; ">}</span><span style="color:#00c4c4; ">, </span><span style="color:#02d045; ">${</span><span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span><span style="color:#00c4c4; ">isMale</span><span style="color:#02d045; ">}</span><span style="color:#00c4c4; ">;</span><span style="color:#02d045; ">`</span>
+<span style="color:#b060b0; ">}</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>tom<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">toString</span><span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span> <span style="color:#9999a9; ">// Tom, true;</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>tom<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+</pre>
+
+
+
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲好像都是用函數建構子的方式測試，改用class建立物件再測試一次。
+            </h4>
+            <pre class="middle103"><span style="color:#e66170; font-weight:bold; ">class</span> Cls<span style="color:#b060b0; ">{</span>
+	constructor<span style="color:#d2cd86; ">(</span>x<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+		<span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>x <span style="color:#d2cd86; ">=</span> x<span style="color:#b060b0; ">;</span>
+	<span style="color:#b060b0; ">}</span>
+<span style="color:#b060b0; ">}</span>
+Cls<span style="color:#d2cd86; ">.</span>prototype<span style="color:#d2cd86; ">.</span>y <span style="color:#d2cd86; ">=</span> <span style="color:#008c00; ">10</span><span style="color:#b060b0; ">;</span>
+<span style="color:#e66170; font-weight:bold; ">let</span> c <span style="color:#d2cd86; ">=</span> <span style="color:#e66170; font-weight:bold; ">new</span> Cls<span style="color:#d2cd86; ">(</span><span style="color:#008c00; ">1</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+Cls<span style="color:#d2cd86; ">.</span>prototype<span style="color:#d2cd86; ">.</span>toString <span style="color:#d2cd86; ">=</span> <span style="color:#e66170; font-weight:bold; ">function</span><span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+	<span style="color:#e66170; font-weight:bold; ">return</span> <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>x <span style="color:#d2cd86; ">+</span> <span style="color:#02d045; ">"</span><span style="color:#00c4c4; "> </span><span style="color:#02d045; ">"</span> <span style="color:#d2cd86; ">+</span> <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>y<span style="color:#b060b0; ">;</span>
+<span style="color:#b060b0; ">}</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>c<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">toString</span><span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+</pre>
+
+
+
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲使用class建立物件，可以使用entends關鍵字來實現繼承。
+            </h4><br>&nbsp;&nbsp;
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;繼承原則上就是根據之前的物件再增補上需要的變數或方法，所以在JS我們可以使用prototype來擴充原來物件。例如:
+            </h4>
+            <pre class="middle104"><span style="color:#e66170; font-weight:bold; ">function</span> Super<span style="color:#d2cd86; ">(</span>x<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+	<span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>x <span style="color:#d2cd86; ">=</span> x<span style="color:#b060b0; ">;</span>
+<span style="color:#b060b0; ">}</span>
+
+<span style="color:#e66170; font-weight:bold; ">function</span> Sub<span style="color:#d2cd86; ">(</span>x<span style="color:#d2cd86; ">,</span> y<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+	Super<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">call</span><span style="color:#d2cd86; ">(</span><span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">,</span> x<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+	<span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>y <span style="color:#d2cd86; ">=</span> y<span style="color:#b060b0; ">;</span>
+<span style="color:#b060b0; ">}</span>
+
+Sub<span style="color:#d2cd86; ">.</span>prototype <span style="color:#d2cd86; ">=</span> Object<span style="color:#d2cd86; ">.</span>create<span style="color:#d2cd86; ">(</span>Super<span style="color:#d2cd86; ">.</span>prototype<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span><span style="color:#9999a9; ">//Object.create():指定其原型物件與屬性，創建一個新物件。</span>
+Sub<span style="color:#d2cd86; ">.</span>prototype<span style="color:#d2cd86; ">.</span>constructor <span style="color:#d2cd86; ">=</span> Sub<span style="color:#b060b0; ">;</span>
+<span style="color:#e66170; font-weight:bold; ">let</span> ins <span style="color:#d2cd86; ">=</span> <span style="color:#e66170; font-weight:bold; ">new</span> Sub<span style="color:#d2cd86; ">(</span><span style="color:#008c00; ">1</span><span style="color:#d2cd86; ">,</span> <span style="color:#008c00; ">2</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+Sub<span style="color:#d2cd86; ">.</span>prototype<span style="color:#d2cd86; ">.</span>toString <span style="color:#d2cd86; ">=</span> <span style="color:#e66170; font-weight:bold; ">function</span><span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+	<span style="color:#e66170; font-weight:bold; ">return</span> <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>x <span style="color:#d2cd86; ">+</span> <span style="color:#02d045; ">"</span><span style="color:#00c4c4; "> </span><span style="color:#02d045; ">"</span> <span style="color:#d2cd86; ">+</span> <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>y<span style="color:#b060b0; ">;</span>
+<span style="color:#b060b0; ">}</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>ins<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">toString</span><span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span> <span style="color:#9999a9; ">// 1 2</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>ins <span style="color:#e66170; font-weight:bold; ">instanceof</span> Super<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span> <span style="color:#9999a9; ">// true</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>ins <span style="color:#e66170; font-weight:bold; ">instanceof</span> Sub<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span> <span style="color:#9999a9; ">// true</span>
+</pre>
+
+
+
+
+
+
+
+            <br><br>
+            <div class="middle6">
+                <hr>
+            </div>
+
+            <h1 class="middle00">Static</h1>
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲在class內，若是方法由static修飾，表示不需要instantiating(new之後)即可呼叫，若instantiating後反而不能呼叫。
+            </h4>
+<pre class="middle105"><span style="color:#e66170; font-weight:bold; ">class</span> MyMethods<span style="color:#b060b0; ">{</span>
+    <span style="color:#e66170; font-weight:bold; ">static</span> hi<span style="color:#d2cd86; ">(</span>name<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+        console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span><span style="color:#02d045; ">"</span><span style="color:#00c4c4; ">Hello, </span><span style="color:#02d045; ">"</span> <span style="color:#d2cd86; ">+</span> name<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+    <span style="color:#b060b0; ">}</span>
+    <span style="color:#e66170; font-weight:bold; ">static</span> circleArea<span style="color:#d2cd86; ">(</span>radius<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+        <span style="color:#e66170; font-weight:bold; ">return</span> Math<span style="color:#d2cd86; ">.</span>PI<span style="color:#d2cd86; ">*</span>radius<span style="color:#d2cd86; ">*</span>radius<span style="color:#b060b0; ">;</span>
+    <span style="color:#b060b0; ">}</span>
+<span style="color:#b060b0; ">}</span>
+
+MyMethods<span style="color:#d2cd86; ">.</span>hi<span style="color:#d2cd86; ">(</span><span style="color:#02d045; ">"</span><span style="color:#00c4c4; ">Jenny</span><span style="color:#02d045; ">"</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>MyMethods<span style="color:#d2cd86; ">.</span>circleArea<span style="color:#d2cd86; ">(</span><span style="color:#008c00; ">10</span><span style="color:#d2cd86; ">)</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+mm <span style="color:#d2cd86; ">=</span> <span style="color:#e66170; font-weight:bold; ">new</span> MyMethods<span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+mm<span style="color:#d2cd86; ">.</span>hi<span style="color:#d2cd86; ">(</span><span style="color:#02d045; ">"</span><span style="color:#00c4c4; ">Alice</span><span style="color:#02d045; ">"</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span> <span style="color:#9999a9; ">// &lt;&lt; invalid</span>
+</pre>
+
+
+
+
+
+
+
+
+
+
+            <br><br>
+            <div class="middle6">
+                <hr>
+            </div>
+
+            <h1 class="middle00">Private Static method</h1>
+
+            <h4 class="middle2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▲static方法也可以是private，原則上就是僅給class內的方法使用。
+            </h4>
+<pre class="middle106"><span style="color:#e66170; font-weight:bold; ">class</span> Area<span style="color:#b060b0; ">{</span>
+	<span style="color:#e66170; font-weight:bold; ">static</span> #circle<span style="color:#d2cd86; ">(</span>r<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span> <span style="color:#9999a9; ">// static private method</span>
+		<span style="color:#e66170; font-weight:bold; ">return</span> Math<span style="color:#d2cd86; ">.</span>PI<span style="color:#d2cd86; ">*</span>r<span style="color:#d2cd86; ">*</span>r<span style="color:#b060b0; ">;</span>
+	<span style="color:#b060b0; ">}</span><span style="color:#9999a9; ">//circle</span>
+	<span style="color:#e66170; font-weight:bold; ">static</span> oneCircle<span style="color:#d2cd86; ">(</span>r<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+		<span style="color:#e66170; font-weight:bold; ">return</span> <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>#circle<span style="color:#d2cd86; ">(</span>r<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span><span style="color:#9999a9; ">//使用Area.#circle(r)可能較好，因為若有牽涉到繼承，this可能指向不同的class</span>
+	<span style="color:#b060b0; ">}</span>
+	<span style="color:#e66170; font-weight:bold; ">static</span> circles<span style="color:#d2cd86; ">(</span><span style="color:#d2cd86; ">.</span><span style="color:#d2cd86; ">.</span><span style="color:#d2cd86; ">.</span>rs<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+		<span style="color:#e66170; font-weight:bold; ">let</span> area <span style="color:#d2cd86; ">=</span> <span style="color:#008c00; ">0</span><span style="color:#b060b0; ">;</span>
+		<span style="color:#e66170; font-weight:bold; ">for</span> <span style="color:#d2cd86; ">(</span><span style="color:#e66170; font-weight:bold; ">let</span> r of rs<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">{</span>
+			area <span style="color:#d2cd86; ">+=</span> <span style="color:#e66170; font-weight:bold; ">this</span><span style="color:#d2cd86; ">.</span>#circle<span style="color:#d2cd86; ">(</span>r<span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span>
+		<span style="color:#b060b0; ">}</span>
+		<span style="color:#e66170; font-weight:bold; ">return</span> area<span style="color:#b060b0; ">;</span>
+	<span style="color:#b060b0; ">}</span><span style="color:#9999a9; ">//circles</span>
+<span style="color:#b060b0; ">}</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>Area<span style="color:#d2cd86; ">.</span>oneCircle<span style="color:#d2cd86; ">(</span><span style="color:#008c00; ">10</span><span style="color:#d2cd86; ">)</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span> <span style="color:#9999a9; ">// 314.1592653589793</span>
+console<span style="color:#d2cd86; ">.</span><span style="color:#e66170; font-weight:bold; ">log</span><span style="color:#d2cd86; ">(</span>Area<span style="color:#d2cd86; ">.</span>circles<span style="color:#d2cd86; ">(</span><span style="color:#008c00; ">10</span><span style="color:#d2cd86; ">,</span> <span style="color:#008c00; ">20</span><span style="color:#d2cd86; ">)</span><span style="color:#d2cd86; ">)</span><span style="color:#b060b0; ">;</span> <span style="color:#9999a9; ">// 1570.7963267948967</span>
+</pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <br><br>
+            <div class="middle6">
+                <hr>
+            </div>
+
+
+
+        </div>
+        <!---------------右邊--------------->
+        <div class="right0">
+            <br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img class="right1" src="ad1.jpg" width="250px">
+            <br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img class="right1" src="bd1.jpg" width="250px">
+            <br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img class="right1" src="cd1.jpg" width="250px">
+            <br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img class="right1" src="dd1.png" width="250px">
+        </div>
+    </div>
+</body>
+
+
+
+
+
+</html>

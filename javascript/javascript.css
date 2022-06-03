@@ -138,36 +138,12 @@
 .middle2{
     display: inline;
 }
+
 .middle3{
-    background-color: black;
-    color: white;
-    display: block;
-    overflow-x: auto;
-    width: 210px;
-    height: 160px;
-    margin-left: 100px;
-    padding: 0.5em;
-
-}
-.middle4{
-    background-color: black;
-    color: white;
-    display: block; 
-    overflow-x: auto; 
-    padding: 0.5em; 
-    margin-left: 50px;
-    width: 650px;
+text-align: center;
+color: crimson;
 }
 
-.middle5{
-    background-color: black;
-    color: white;
-    display: block; 
-    overflow-x: auto; 
-    padding: 0.5em; 
-    margin-left: 50px;
-    width: 120px;
-}
 
 .middle6{
     margin-left: 50px;
@@ -175,273 +151,47 @@
 
 .middle7{
     background-color: black;
-    color: white;
+    color: greenyellow;
     display: block; 
     overflow-x: auto; 
     padding: 0.5em; 
     margin-left: 50px;
-    width: 850px;
+    width: 460px;
 }
 
 .middle8{
     background-color: black;
-    color: white;
+    color: greenyellow;
     display: block; 
     overflow-x: auto; 
     padding: 0.5em; 
     margin-left: 50px;
-    width: 850px;
+    width: 550px;
 }
+
 .middle9{
     background-color: black;
-    color: white;
+    color: greenyellow;
     display: block; 
     overflow-x: auto; 
     padding: 0.5em; 
     margin-left: 50px;
-    width: 360px;
+    width: 750px;
 }
+
 .middle10{
     background-color: black;
-    color: white;
+    color: greenyellow;
     display: block; 
     overflow-x: auto; 
     padding: 0.5em; 
     margin-left: 50px;
-    width: 230px;
+    width: 200px;
 }
 
 .middle11{
     background-color: black;
-    color: white;
-    display: block; 
-    overflow-x: auto; 
-    padding: 0.5em; 
-    margin-left: 50px;
-    width: 680px;
-}
-
-.middle12{
-    background-color: black;
-    color: white;
-    display: block; 
-    overflow-x: auto; 
-    padding: 0.5em; 
-    margin-left: 50px;
-    width: 630px;
-}
-
-.middle13{
-    background-color: black;
-    color: white;
-    display: block; 
-    overflow-x: auto; 
-    padding: 0.5em; 
-    margin-left: 50px;
-    width: 720px;
-}
-
-.middle14{
-    background-color: black;
-    color: white;
-    display: block; 
-    overflow-x: auto; 
-    padding: 0.5em; 
-    margin-left: 50px;
-    width: 970px;
-}
-
-.middle15{
-    background-color: black;
-    color: white;
-    display: block; 
-    overflow-x: auto; 
-    padding: 0.5em; 
-    margin-left: 50px;
-    width: 280px;
-}
-
-.middle16{
-    background-color: black;
-    color: white;
-    display: block; 
-    overflow-x: auto; 
-    padding: 0.5em; 
-    margin-left: 50px;
-    width: 650px;
-}
-
-.middle17{
-    background-color: black;
-    color: white;
-    display: block; 
-    overflow-x: auto; 
-    padding: 0.5em; 
-    margin-left: 50px;
-    width: 650px;
-}
-
-.middle18{
-    background-color: black;
-    color: white;
-    display: block; 
-    overflow-x: auto; 
-    padding: 0.5em; 
-    margin-left: 50px;
-    width: 700px;
-}
-
-.middle19{
-    background-color: black;
-    color: white;
-    display: block; 
-    overflow-x: auto; 
-    padding: 0.5em; 
-    margin-left: 50px;
-    width: 900px;
-}
-
-.middle20{
-    background-color: black;
-    color: white;
-    display: block; 
-    overflow-x: auto; 
-    padding: 0.5em; 
-    margin-left: 50px;
-    width: 850px;
-}
-
-.middle21{
-    background-color: black;
-    color: white;
-    display: block; 
-    overflow-x: auto; 
-    padding: 0.5em; 
-    margin-left: 50px;
-    width: 500px;
-}
-
-.middle22{
-    background-color: black;
-    color: white;
-    display: block; 
-    overflow-x: auto; 
-    padding: 0.5em; 
-    margin-left: 50px;
-    width: 400px;
-}
-
-.middle23{
-    background-color: black;
-    color: white;
-    display: block; 
-    overflow-x: auto; 
-    padding: 0.5em; 
-    margin-left: 50px;
-    width: 430px;
-}
-
-.middle24{
-    background-color: black;
-    color: white;
-    display: block; 
-    overflow-x: auto; 
-    padding: 0.5em; 
-    margin-left: 50px;
-    width: 580px;
-}
-
-.middle25{
-    background-color: black;
-    color: white;
-    display: block; 
-    overflow-x: auto; 
-    padding: 0.5em; 
-    margin-left: 50px;
-    width: 580px;
-}
-
-.middle26{
-    background-color: black;
-    color: white;
-    display: block; 
-    overflow-x: auto; 
-    padding: 0.5em; 
-    margin-left: 50px;
-    width: 580px;
-}
-
-.middle27{
-    background-color: black;
-    color: white;
-    display: block; 
-    overflow-x: auto; 
-    padding: 0.5em; 
-    margin-left: 50px;
-    width: 600px;
-}
-
-.middle28{
-    background-color: black;
-    color: white;
-    display: block; 
-    overflow-x: auto; 
-    padding: 0.5em; 
-    margin-left: 50px;
-    width: 400px;
-}
-.middle29{
-    background-color: black;
-    color: white;
-    display: block; 
-    overflow-x: auto; 
-    padding: 0.5em; 
-    margin-left: 50px;
-    width: 320px;
-}
-.middle30{
-    background-color: black;
-    color: white;
-    display: block; 
-    overflow-x: auto; 
-    padding: 0.5em; 
-    margin-left: 50px;
-    width: 350px;
-}
-
-.middle31{
-    background-color: black;
-    color: white;
-    display: block; 
-    overflow-x: auto; 
-    padding: 0.5em; 
-    margin-left: 50px;
-    width: 300px;
-}
-
-.middle32{
-    background-color: black;
-    color: white;
-    display: block; 
-    overflow-x: auto; 
-    padding: 0.5em; 
-    margin-left: 50px;
-    width: 320px;
-}
-
-.middle33{
-    background-color: black;
-    color: white;
-    display: block; 
-    overflow-x: auto; 
-    padding: 0.5em; 
-    margin-left: 50px;
-    width: 320px;
-}
-
-.middle34{
-    background-color: black;
-    color: white;
+    color: greenyellow;
     display: block; 
     overflow-x: auto; 
     padding: 0.5em; 
@@ -449,29 +199,249 @@
     width: 310px;
 }
 
-.middle35{
+.middle12{
     background-color: black;
-    color: white;
+    color: greenyellow;
     display: block; 
     overflow-x: auto; 
     padding: 0.5em; 
     margin-left: 50px;
-    width: 410px;
+    width: 300px;
+}
+
+.middle13{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 200px;
+}
+
+.middle14{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 310px;
+}
+
+.middle15{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 300px;
+}
+
+.middle16{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 300px;
+}
+
+.middle17{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 350px;
+}
+
+.middle18{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 240px;
+}
+
+.middle19{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 300px;
+}
+
+.middle20{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 450px;
+}
+
+.middle21{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 550px;
+}
+
+.middle22{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 330px;
+}
+
+.middle23{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 180px;
+}
+
+.middle24{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 140px;
+}
+
+.middle25{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 170px;
+}
+
+.middle26{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 170px;
+}
+
+.middle27{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 300px;
+}
+
+.middle28{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 230px;
+}
+
+.middle29{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 160px;
+}
+
+.middle30{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 230px;
+}
+
+.middle31{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 230px;
+}
+
+.middle32{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 180px;
+}
+
+.middle33{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 190px;
+}
+
+.middle34{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 190px;
+}
+
+.middle35{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 160px;
 }
 
 .middle36{
     background-color: black;
-    color: white;
-    display: block; 
-    overflow-x: auto; 
-    padding: 0.5em; 
-    margin-left: 50px;
-    width: 320px;
-}
-
-.middle37{
-    background-color: black;
-    color: white;
+    color: greenyellow;
     display: block; 
     overflow-x: auto; 
     padding: 0.5em; 
@@ -479,29 +449,19 @@
     width: 280px;
 }
 
+.middle37{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 380px;
+}
+
 .middle38{
     background-color: black;
-    color: white;
-    display: block; 
-    overflow-x: auto; 
-    padding: 0.5em; 
-    margin-left: 50px;
-    width: 580px;
-}
-
-.middle39{
-    background-color: black;
-    color: white;
-    display: block; 
-    overflow-x: auto; 
-    padding: 0.5em; 
-    margin-left: 50px;
-    width: 580px;
-}
-
-.middle40{
-    background-color: black;
-    color: white;
+    color: greenyellow;
     display: block; 
     overflow-x: auto; 
     padding: 0.5em; 
@@ -509,9 +469,99 @@
     width: 320px;
 }
 
+.middle39{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 240px;
+}
+
+.middle40{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 240px;
+}
+
 .middle41{
     background-color: black;
-    color: white;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 340px;
+}
+
+.middle42{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 360px;
+}
+
+.middle43{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 320px;
+}
+
+.middle44{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 330px;
+}
+
+.middle45{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 400px;
+}
+
+.middle46{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 300px;
+}
+
+.middle47{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 680px;
+}
+
+.middle48{
+    background-color: black;
+    color: greenyellow;
     display: block; 
     overflow-x: auto; 
     padding: 0.5em; 
@@ -519,40 +569,616 @@
     width: 600px;
 }
 
-.middle42{
+.middle49{
     background-color: black;
-    color: white;
+    color: greenyellow;
     display: block; 
     overflow-x: auto; 
     padding: 0.5em; 
     margin-left: 50px;
-    width: 630px;
+    width: 300px;
 }
 
-.h7{
-    display: inline;
-    color: darkred;
-}
-
-.middle43{
+.middle50{
     background-color: black;
-    color: white;
+    color: greenyellow;
     display: block; 
     overflow-x: auto; 
     padding: 0.5em; 
     margin-left: 50px;
-    width: 700px;
+    width: 300px;
 }
 
-.middle44{
+.middle51{
     background-color: black;
-    color: white;
+    color: greenyellow;
     display: block; 
     overflow-x: auto; 
     padding: 0.5em; 
     margin-left: 50px;
-    width: 580px;
+    width: 300px;
 }
+
+.middle52{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 250px;
+}
+
+.middle53{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 180px;
+}
+
+.middle54{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 250px;
+}
+
+.middle55{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 330px;
+}
+
+.middle56{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 270px;
+}
+
+.middle57{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 330px;
+}
+
+.middle58{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 300px;
+}
+
+.middle59{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 330px;
+}
+
+.middle60{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 300px;
+}
+
+.middle61{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 380px;
+}
+
+.middle62{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 400px;
+}
+
+.middle63{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 170px;
+}
+
+.middle64{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 570px;
+}
+
+.middle65{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 90px;
+}
+
+.middle66{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 200px;
+}
+
+.middle67{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 600px;
+}
+
+.middle68{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 120px;
+}
+
+.middle69{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 350px;
+}
+
+.middle70{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 350px;
+}
+
+.middle71{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 300px;
+}
+
+.middle72{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 470px;
+}
+
+.middle73{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 300px;
+}
+
+.middle74{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 300px;
+}
+
+.middle75{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 300px;
+}
+
+.middle76{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 300px;
+}
+
+.middle77{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 250px;
+}
+
+.middle78{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 250px;
+}
+
+.middle79{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 600px;
+}
+
+.middle80{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 350px;
+}
+
+.middle81{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 350px;
+}
+
+.middle82{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 150px;
+}
+
+.middle83{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 150px;
+}
+
+.middle84{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 150px;
+}
+
+.middle85{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 300px;
+}
+
+.middle86{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 280px;
+}
+
+.middle87{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 400px;
+}
+
+.middle88{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 280px;
+}
+
+.middle89{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 530px;
+}
+
+.middle90{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 530px;
+}
+
+.middle91{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 430px;
+}
+
+.middle92{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 350px;
+}
+
+.middle93{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 350px;
+}
+
+.middle94{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 350px;
+}
+
+.middle95{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 350px;
+}
+
+.middle96{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 550px;
+}
+
+.middle97{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 750px;
+}
+
+.middle98{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 350px;
+}
+
+.middle99{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 400px;
+}
+
+.middle100{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 500px;
+}
+
+.middle101{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 500px;
+}
+
+.middle102{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 450px;
+}
+
+.middle103{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 300px;
+}
+
+.middle104{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 750px;
+}
+
+.middle105{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 300px;
+}
+
+.middle106{
+    background-color: black;
+    color: greenyellow;
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    margin-left: 50px;
+    width: 780px;
+}
+
+.middle107{
+    display: block;
+    margin: auto;
+    height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -562,10 +1188,6 @@
 .right0{
     background-color: white;
 }
-
-
-
-
 
 
 
